@@ -8,6 +8,17 @@ load_experiment <- function(folder){
 
 }
 
+load_task <- function(folder){
+  EXPECTED_LOGS <- c("event", "ExperimentInfo", "player", "result", "test")
+  logs <- list()
+  for(logname in EXPECTED_LOGS){
+    pth <- find_log_path(folder, logname)
+    if(is.null(pth)) next
+    log <- load_log(pth)
+    logs[[logname]] <- log
+  }
+  return(logs)
+}
 #' Loads the main schedule log
 #'
 #' @param folder
