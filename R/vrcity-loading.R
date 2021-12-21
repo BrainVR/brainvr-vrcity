@@ -8,6 +8,14 @@ load_experiment <- function(folder){
 
 }
 
+#' Loads a single task in given folder
+#'
+#' @param folder path to the task data
+#'
+#' @return list with a vretcity task class
+#' @export
+#'
+#' @examples
 load_task <- function(folder){
   EXPECTED_LOGS <- c("event", "ExperimentInfo", "player", "result", "test")
   logs <- list()
@@ -19,6 +27,7 @@ load_task <- function(folder){
   }
   return(logs)
 }
+
 #' Loads the main schedule log
 #'
 #' @param folder
