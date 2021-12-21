@@ -1,0 +1,39 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-39-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Domů.",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Home",
+    "journalDescription": "Výborně, máte nakoupeno. Dojděte si domů.",
+    "startDialog": {
+        "skin": 0,
+        "title": "Domů",
+        "body": "Pokuste se trefit domů bez navigačních pomůcek."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Doma.",
+        "body": "Skvělé, pod dlouhém dnu jste doma a můžete si odpočinout, než příjde návštěva, dárek pro oslavence máte již v inventáři. Pokud  máte sílu navíc, můžete ještě pobít otravné mouchy v kuchyni."
+    },
+    "requiredItems": [],
+    "toRemoveItems": [
+        "EMT2019/balloons"
+    ],
+    "toReceiveItems": [
+        "BriansHouse2019/Present"
+    ],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+354.570357; Quest; 3; Started; 
+358.086676; Level; 0; Started; [{"x":161.764,"y":27.3510017,"z":-59.386},{"x":151.52,"y":27.7270012,"z":-81.549},{"x":52.1400032,"y":27.7270012,"z":-83.13901},{"x":-7.86000061,"y":27.7270012,"z":-83.13901},{"x":-70.4900055,"y":27.7270012,"z":-84.329},{"x":-70.96001,"y":27.0600014,"z":-101.990005}]
+422.586221; Level; 0; Finished; 
+422.586221; Quest; 3; Finished; 

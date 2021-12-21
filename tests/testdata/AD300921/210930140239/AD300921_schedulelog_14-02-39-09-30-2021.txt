@@ -1,0 +1,234 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+***SCHEDULE HEADER***
+[
+  {
+    "questId": "WeatherTimeEvent",
+    "questConfig": {
+      "$type": "WeatherTimeEventConfig, NUDZ_Base",
+      "weather": 2,
+      "temperature": 25,
+      "time": {
+        "hours": 11,
+        "minutes": 0
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "PlanningQuest",
+    "questConfig": {
+      "$type": "PlanningQuestConfig, NUDZ_Base",
+      "clothesSet": {
+        "items": [
+          "BriansHouse2019/CasualSet",
+          "BriansHouse2019/SportSet"
+        ]
+      },
+      "shoes": {
+        "items": [
+          "BriansHouse2019/Boots",
+          "BriansHouse2019/Flipflops",
+          "BriansHouse2019/Sneakers"
+        ]
+      },
+      "cap": {
+        "items": null
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Cukrárna.",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Sweetshop",
+      "journalDescription": "Dojděte si do cukrárny a nakupte něco sladkého pro dnešní plánovanou oslavu.",
+      "startDialog": {
+        "skin": 1,
+        "title": "Cukrárna.",
+        "body": "Dojtěte si do cukrárny."
+      },
+      "endDialog": {
+        "skin": 1,
+        "title": "Cukrárna.",
+        "body": "Výborně! Sladkosti máte nakoupené."
+      },
+      "requiredItems": [
+        "BriansHouse2019/Wallet"
+      ],
+      "toRemoveItems": [],
+      "toReceiveItems": [
+        "EMT2019/Ice_cream",
+        "EMT2019/Cookies"
+      ],
+      "showArrow": true,
+      "showMap": true,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Nákup",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Supermarket",
+      "journalDescription": "Dojděte do supermarketu a nakupte další věci na dnešní oslavu, nezapomeňte na připravenej seznam na lednici.",
+      "startDialog": {
+        "skin": 0,
+        "title": "Supermarket",
+        "body": "Dojděte do supermarketu."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Jsme na místě.",
+        "body": "Výborně! Pojďme nakupovat."
+      },
+      "requiredItems": [
+        "BriansHouse2019/Wallet",
+        "BriansHouse2019/ShoppingBag",
+        "BriansHouse2019/ShoppingList"
+      ],
+      "toRemoveItems": [
+        "BriansHouse2019/ShoppingList"
+      ],
+      "toReceiveItems": [
+        "EMT2019/Bread",
+        "EMT2019/Butter",
+        "EMT2019/Cafe",
+        "EMT2019/beer",
+        "EMT2019/salami"
+      ],
+      "showArrow": true,
+      "showMap": true,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "ShoppingQuest",
+    "questConfig": {
+      "$type": "ShoppingQuestConfig, NUDZ_Base",
+      "tourTime": 300.0,
+      "levels": [
+        {
+          "levelName": "Zácvik Seznam 3",
+          "showListTime": 15.0,
+          "delayTime": 10.0,
+          "randomList": true,
+          "randomListCount": 3,
+          "itemsIds": null
+        },
+        {
+          "levelName": "Seznam 5",
+          "showListTime": 25.0,
+          "delayTime": 10.0,
+          "randomList": true,
+          "randomListCount": 5,
+          "itemsIds": null
+        },
+        {
+          "levelName": "Seznam 7",
+          "showListTime": 35.0,
+          "delayTime": 10.0,
+          "randomList": true,
+          "randomListCount": 7,
+          "itemsIds": null
+        },
+        {
+          "levelName": "Seznam 9",
+          "showListTime": 45.0,
+          "delayTime": 10.0,
+          "randomList": true,
+          "randomListCount": 9,
+          "itemsIds": null
+        }
+      ],
+      "minSuccessRate": 0.6,
+      "maxAttemptsCount": 3,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Dojít domů na oběd",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Home",
+      "journalDescription": "Jděte domů a vejděte do kuchyně.",
+      "startDialog": {
+        "skin": 1,
+        "title": "Připomínka ",
+        "body": "Dojděte si domů na oběd. "
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Doma",
+        "body": "Skvělé, jste doma. Podívejte se do inventáře, co máte k obědu. Dobrou chuť."
+      },
+      "requiredItems": [],
+      "toRemoveItems": [
+        "EMT2019/Ice_cream",
+        "EMT2019/Cookies",
+        "EMT2019/Bread",
+        "EMT2019/Butter",
+        "EMT2019/Cafe",
+        "EMT2019/beer",
+        "EMT2019/salami"
+      ],
+      "toReceiveItems": [
+        "EMT2019/Chicken",
+        "EMT2019/Plate",
+        "EMT2019/Pan",
+        "EMT2019/Puree",
+        "EMT2019/beer"
+      ],
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  }
+]
+---SCHEDULE HEADER---
+time; event; param
+0.145124; APP_MODE_SET; DESKTOP
+0.170155; SCENE_LOADED; BriansHouse2019/NONE
+0.352311; SCHEDULE_STARTED; 
+0.375333; QUEST_STARTED; {"name":"PlanningQuest","id":1}
+196.343062; APP_MODE_SET; VR
+618.744578; SCENE_LOADING; CITY_MAIN/Brians
+618.769601; QUEST_FINISHED; PlanningQuest
+618.779618; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":2}
+629.396632; SCENE_LOADED; CITY_MAIN/Brians
+797.988696; QUEST_FINISHED; NavigationExtendedQuest
+809.046386; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":3}
+877.829851; QUEST_FINISHED; NavigationExtendedQuest
+881.582821; SCENE_LOADING; SupermarketFull/FrontDoor
+881.598835; QUEST_STARTED; {"name":"ShoppingQuest","id":4}
+886.611613; SCENE_LOADED; SupermarketFull/FrontDoor
+1614.583670; QUEST_FINISHED; ShoppingQuest
+1614.591677; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":5}
+1625.151319; SCENE_LOADING; CITY_MAIN/Supermarket
+1635.774879; SCENE_LOADED; CITY_MAIN/Supermarket
+1706.170299; QUEST_FINISHED; NavigationExtendedQuest
+1706.171291; SCHEDULE_FINISHED; 
+1772.220743; APP_QUIT; 

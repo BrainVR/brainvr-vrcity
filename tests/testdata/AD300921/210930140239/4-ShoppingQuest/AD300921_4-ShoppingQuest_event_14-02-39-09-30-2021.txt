@@ -1,0 +1,26 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+Time; Event; Type; Info
+886.611613; NAVIGATE_TO; NAVIGATION; CITY_MAIN/Supermarket
+1267.233611; INTERACTION_TRIGGERED; ITEM; SupermarketFull/Product_cereal_buiscuits
+1267.568448; ADDED_TO_INVENTORY; ITEM; SupermarketFull/Product_cereal_buiscuits
+1267.568448; INTERACTION_RELEASED; ITEM; SupermarketFull/Product_cereal_buiscuits
+1289.264212; MENU_INTERACTION; MENU; OPEN
+1295.635197; MENU_INTERACTION; TAB; 1
+1298.103222; MENU_INTERACTION; MENU; CLOSE
+1298.103222; INTERACTION_TRIGGERED; ITEM; SupermarketFull/Product_cereal_buiscuits
+1298.103222; REMOVED_FROM_INVENTORY; ITEM; SupermarketFull/Product_cereal_buiscuits
+1298.408444; INTERACTION_RELEASED; ITEM; SupermarketFull/Product_cereal_buiscuits
+1375.770441; INTERACTION_TRIGGERED; ITEM; SupermarketFull/Product_cookies
+1376.220851; INTERACTION_RELEASED; ITEM; SupermarketFull/Product_cookies
+1419.005968; INTERACTION_TRIGGERED; ITEM; SupermarketFull/Product_honney
+1419.316936; ADDED_TO_INVENTORY; ITEM; SupermarketFull/Product_honney
+1419.316936; INTERACTION_RELEASED; ITEM; SupermarketFull/Product_honney
+1501.571996; INTERACTION_TRIGGERED; ITEM; SupermarketFull/Product_peppershaker
+1501.868262; INTERACTION_RELEASED; ITEM; SupermarketFull/Product_peppershaker
+1534.069514; INTERACTION_TRIGGERED; CASH_DESK; Cashdesk
+1593.901544; NAVIGATE_TO; NAVIGATION; SupermarketFull/Exit

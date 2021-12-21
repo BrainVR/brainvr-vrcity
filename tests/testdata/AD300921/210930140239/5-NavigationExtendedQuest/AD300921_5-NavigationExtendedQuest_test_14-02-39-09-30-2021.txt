@@ -1,0 +1,49 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Dojít domů na oběd",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Home",
+    "journalDescription": "Jděte domů a vejděte do kuchyně.",
+    "startDialog": {
+        "skin": 1,
+        "title": "Připomínka ",
+        "body": "Dojděte si domů na oběd. "
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Doma",
+        "body": "Skvělé, jste doma. Podívejte se do inventáře, co máte k obědu. Dobrou chuť."
+    },
+    "requiredItems": [],
+    "toRemoveItems": [
+        "EMT2019/Ice_cream",
+        "EMT2019/Cookies",
+        "EMT2019/Bread",
+        "EMT2019/Butter",
+        "EMT2019/Cafe",
+        "EMT2019/beer",
+        "EMT2019/salami"
+    ],
+    "toReceiveItems": [
+        "EMT2019/Chicken",
+        "EMT2019/Plate",
+        "EMT2019/Pan",
+        "EMT2019/Puree",
+        "EMT2019/beer"
+    ],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+1614.591677; Quest; 5; Started; 
+1637.644087; Level; 0; Started; [{"x":160.979,"y":27.4070015,"z":-53.199},{"x":151.52,"y":27.7270012,"z":-81.549},{"x":52.1400032,"y":27.7270012,"z":-83.13901},{"x":-7.86000061,"y":27.7270012,"z":-83.13901},{"x":-70.4900055,"y":27.7270012,"z":-84.329},{"x":-70.96001,"y":27.0600014,"z":-101.990005}]
+1706.169290; Level; 0; Finished; 
+1706.170299; Quest; 5; Finished; 

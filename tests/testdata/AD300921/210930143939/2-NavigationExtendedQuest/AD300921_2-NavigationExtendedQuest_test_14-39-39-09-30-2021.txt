@@ -1,0 +1,40 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-39-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Supermarket.",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Supermarket",
+    "journalDescription": "Zapoměli jste koupit balóny a za hodinku začíná oslava. Vraťte se do supermarketu, než zavřou.",
+    "startDialog": {
+        "skin": 0,
+        "title": "Supermarket",
+        "body": "Pokuste se vrátit k supermarketu a nepoužít navigační pomůcky."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Supermarket.",
+        "body": "Výborně, jste na místě. Tak teď rychle dovnitř, ať nepříjdete pozdě na oslavu."
+    },
+    "requiredItems": [
+        "BriansHouse2019/Wallet",
+        "BriansHouse2019/Umbrella"
+    ],
+    "toRemoveItems": [],
+    "toReceiveItems": [
+        "EMT2019/balloons"
+    ],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+269.812213; Quest; 2; Started; 
+291.088947; Level; 0; Started; [{"x":-72.32,"y":27.381,"z":-98.942},{"x":-70.4900055,"y":27.7270012,"z":-84.329},{"x":-7.86000061,"y":27.7270012,"z":-83.13901},{"x":52.1400032,"y":27.7270012,"z":-83.13901},{"x":151.52,"y":27.7270012,"z":-81.549},{"x":164.08,"y":26.710001,"z":-57.8900032}]
+348.621086; Level; 0; Finished; 
+348.621086; Quest; 2; Finished; 

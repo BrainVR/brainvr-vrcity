@@ -1,0 +1,9 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-39-39-09-30-2021"
+}
+---SESSION HEADER---
+Time; Event; Type; Info
+269.833232; NAVIGATE_TO; NAVIGATION; CITY_MAIN/Supermarket
+281.186525; NAVIGATE_TO; NAVIGATION; CITY_MAIN/Supermarket

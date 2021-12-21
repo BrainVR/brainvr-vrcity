@@ -1,0 +1,9 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-39-39-09-30-2021"
+}
+---SESSION HEADER---
+Time; Event; Type; Info
+354.596369; NAVIGATE_TO; NAVIGATION; CITY_MAIN/Home
+422.583218; REMOVED_FROM_INVENTORY; ITEM; EMT2019/balloons

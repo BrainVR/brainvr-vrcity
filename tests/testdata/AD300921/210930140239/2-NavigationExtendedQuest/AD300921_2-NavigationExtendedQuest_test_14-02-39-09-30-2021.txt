@@ -1,0 +1,40 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Cukrárna.",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Sweetshop",
+    "journalDescription": "Dojděte si do cukrárny a nakupte něco sladkého pro dnešní plánovanou oslavu.",
+    "startDialog": {
+        "skin": 1,
+        "title": "Cukrárna.",
+        "body": "Dojtěte si do cukrárny."
+    },
+    "endDialog": {
+        "skin": 1,
+        "title": "Cukrárna.",
+        "body": "Výborně! Sladkosti máte nakoupené."
+    },
+    "requiredItems": [
+        "BriansHouse2019/Wallet"
+    ],
+    "toRemoveItems": [],
+    "toReceiveItems": [
+        "EMT2019/Ice_cream",
+        "EMT2019/Cookies"
+    ],
+    "showArrow": true,
+    "showMap": true
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+618.780618; Quest; 2; Started; 
+645.230247; Level; 0; Started; [{"x":-71.5590057,"y":27.3590012,"z":-99.04101},{"x":-70.4900055,"y":27.7270012,"z":-84.329},{"x":-7.86000061,"y":27.7270012,"z":-83.13901},{"x":-8.660001,"y":27.7270012,"z":-28.839},{"x":23.4700012,"y":27.4070015,"z":-12.9690008},{"x":23.8400021,"y":27.4070015,"z":-5.839},{"x":65.28001,"y":27.8170013,"z":18.551},{"x":73.94,"y":27.7270012,"z":15.5610008},{"x":75.94,"y":26.85,"z":62.9}]
+797.987695; Level; 0; Finished; 
+797.988696; Quest; 2; Finished; 

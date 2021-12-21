@@ -1,0 +1,129 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-39-39-09-30-2021"
+}
+---SESSION HEADER---
+***SCHEDULE HEADER***
+[
+  {
+    "questId": "WeatherTimeEvent",
+    "questConfig": {
+      "$type": "WeatherTimeEventConfig, NUDZ_Base",
+      "weather": 3,
+      "temperature": 18,
+      "time": {
+        "hours": 16,
+        "minutes": 30
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "PlanningQuest",
+    "questConfig": {
+      "$type": "PlanningQuestConfig, NUDZ_Base",
+      "clothesSet": {
+        "items": [
+          "BriansHouse2019/CasualSet",
+          "BriansHouse2019/SportSet"
+        ]
+      },
+      "shoes": {
+        "items": [
+          "BriansHouse2019/Boots",
+          "BriansHouse2019/RainBoots"
+        ]
+      },
+      "cap": {
+        "items": null
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Supermarket.",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Supermarket",
+      "journalDescription": "Zapoměli jste koupit balóny a za hodinku začíná oslava. Vraťte se do supermarketu, než zavřou.",
+      "startDialog": {
+        "skin": 0,
+        "title": "Supermarket",
+        "body": "Pokuste se vrátit k supermarketu a nepoužít navigační pomůcky."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Supermarket.",
+        "body": "Výborně, jste na místě. Tak teď rychle dovnitř, ať nepříjdete pozdě na oslavu."
+      },
+      "requiredItems": [
+        "BriansHouse2019/Wallet",
+        "BriansHouse2019/Umbrella"
+      ],
+      "toRemoveItems": [],
+      "toReceiveItems": [
+        "EMT2019/balloons"
+      ],
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Domů.",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Home",
+      "journalDescription": "Výborně, máte nakoupeno. Dojděte si domů.",
+      "startDialog": {
+        "skin": 0,
+        "title": "Domů",
+        "body": "Pokuste se trefit domů bez navigačních pomůcek."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Doma.",
+        "body": "Skvělé, pod dlouhém dnu jste doma a můžete si odpočinout, než příjde návštěva, dárek pro oslavence máte již v inventáři. Pokud  máte sílu navíc, můžete ještě pobít otravné mouchy v kuchyni."
+      },
+      "requiredItems": null,
+      "toRemoveItems": [
+        "EMT2019/balloons"
+      ],
+      "toReceiveItems": [
+        "BriansHouse2019/Present"
+      ],
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  }
+]
+---SCHEDULE HEADER---
+time; event; param
+0.163150; APP_MODE_SET; DESKTOP
+0.188171; SCENE_LOADED; BriansHouse2019/NONE
+0.374349; SCHEDULE_STARTED; 
+0.397362; QUEST_STARTED; {"name":"PlanningQuest","id":1}
+40.853591; APP_MODE_SET; VR
+269.776181; SCENE_LOADING; CITY_MAIN/Brians
+269.802204; QUEST_FINISHED; PlanningQuest
+269.812213; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":2}
+281.186525; SCENE_LOADED; CITY_MAIN/Brians
+348.621086; QUEST_FINISHED; NavigationExtendedQuest
+354.570357; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":3}
+422.586221; QUEST_FINISHED; NavigationExtendedQuest
+422.587221; SCHEDULE_FINISHED; 
+475.582372; APP_QUIT; 

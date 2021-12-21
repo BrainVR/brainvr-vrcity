@@ -1,0 +1,8 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+Time; Cheating; IsTutorial; Finnished level; Result1; Result2; Result3; Result4; Total trajectory; Total time
+797.988696; 1; 0; ; 0.169540; 0.941887; 1.000000; 1.000000; 294.291992; 152.715591

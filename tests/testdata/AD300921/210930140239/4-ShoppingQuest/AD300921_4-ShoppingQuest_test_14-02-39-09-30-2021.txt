@@ -1,0 +1,61 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "minSuccessRate": 0.6000000238418579,
+    "maxAttemptsCount": 3,
+    "tourTime": 300.0,
+    "levels": [
+        {
+            "levelName": "Zácvik Seznam 3",
+            "showListTime": 15.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 3,
+            "itemsIds": []
+        },
+        {
+            "levelName": "Seznam 5",
+            "showListTime": 25.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 5,
+            "itemsIds": []
+        },
+        {
+            "levelName": "Seznam 7",
+            "showListTime": 35.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 7,
+            "itemsIds": []
+        },
+        {
+            "levelName": "Seznam 9",
+            "showListTime": 45.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 9,
+            "itemsIds": []
+        }
+    ]
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+881.598835; Quest; 4; Started; 
+905.458342; Tutorial; 0; Started; 
+1205.461922; Tutorial; 0; Finished; 
+1205.461922; Level; 0; Started; ["SupermarketFull/Product_honney","SupermarketFull/Product_cookies","SupermarketFull/Product_peppershaker"]
+1205.461922; Phase; 0; Started; 
+1220.493108; Phase; 0; Finished; 
+1220.493108; Phase; 1; Started; 
+1230.515551; Phase; 1; Finished; 
+1230.516553; Phase; 2; Started; 
+1534.079525; Phase; 2; Finished; 
+1534.079525; Level; 0; Finished; 
+1614.583670; Quest; 4; Finished; 

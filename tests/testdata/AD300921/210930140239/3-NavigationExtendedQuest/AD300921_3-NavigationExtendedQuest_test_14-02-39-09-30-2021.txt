@@ -1,0 +1,47 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Nákup",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Supermarket",
+    "journalDescription": "Dojděte do supermarketu a nakupte další věci na dnešní oslavu, nezapomeňte na připravenej seznam na lednici.",
+    "startDialog": {
+        "skin": 0,
+        "title": "Supermarket",
+        "body": "Dojděte do supermarketu."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Jsme na místě.",
+        "body": "Výborně! Pojďme nakupovat."
+    },
+    "requiredItems": [
+        "BriansHouse2019/Wallet",
+        "BriansHouse2019/ShoppingBag",
+        "BriansHouse2019/ShoppingList"
+    ],
+    "toRemoveItems": [
+        "BriansHouse2019/ShoppingList"
+    ],
+    "toReceiveItems": [
+        "EMT2019/Bread",
+        "EMT2019/Butter",
+        "EMT2019/Cafe",
+        "EMT2019/beer",
+        "EMT2019/salami"
+    ],
+    "showArrow": true,
+    "showMap": true
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+809.046386; Quest; 3; Started; 
+813.910479; Level; 0; Started; [{"x":75.3810043,"y":27.2120018,"z":63.317},{"x":84.840004,"y":27.7270012,"z":27.561},{"x":130.57,"y":27.7270012,"z":27.561},{"x":121.94,"y":27.7270012,"z":-0.139000013},{"x":164.08,"y":26.710001,"z":-57.8900032}]
+877.828864; Level; 0; Finished; 
+877.829851; Quest; 3; Finished; 

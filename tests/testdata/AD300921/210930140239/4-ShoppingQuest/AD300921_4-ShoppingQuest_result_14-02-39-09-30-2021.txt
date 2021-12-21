@@ -1,0 +1,50 @@
+***SESSION HEADER***
+{
+    "Participant": "AD300921",
+    "Timestamp": "14-02-39-09-30-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "minSuccessRate": 0.6000000238418579,
+    "maxAttemptsCount": 3,
+    "tourTime": 300.0,
+    "levels": [
+        {
+            "levelName": "Zácvik Seznam 3",
+            "showListTime": 15.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 3,
+            "itemsIds": []
+        },
+        {
+            "levelName": "Seznam 5",
+            "showListTime": 25.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 5,
+            "itemsIds": []
+        },
+        {
+            "levelName": "Seznam 7",
+            "showListTime": 35.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 7,
+            "itemsIds": []
+        },
+        {
+            "levelName": "Seznam 9",
+            "showListTime": 45.0,
+            "delayTime": 10.0,
+            "randomList": true,
+            "randomListCount": 9,
+            "itemsIds": []
+        }
+    ]
+}
+---QUESTCONFIG HEADER---
+Time_finished; Time_started; Test_cycle; Task_items_list; Task_items; Items_collected; Task_items_collected; Additional_items; Missing_items; Duplicated_items; Task_time; Task_trajectory; Missing_items_list; Additional_items_list; Duplicated_items_list
+1534.078523; 887.036001; 1; (Product_honney,Product_cookies,Product_peppershaker); 3; 1; 1; 0; 2; 0; 303.550964; 153.658096; (Product_cookies,Product_peppershaker); (); ()
