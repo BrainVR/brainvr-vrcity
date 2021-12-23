@@ -25,3 +25,15 @@ search_task <- function(folder, taskname){
 list_tasks <- function(folder){
 
 }
+
+#' Converts a session name to postix date
+#'
+#' @param string
+#'
+#' @return
+#' @export
+#'
+#' @examples
+convert_session_to_date <- function(string){
+  return(as.Date(string, "%y%m%d%H%M%S"))
+}
