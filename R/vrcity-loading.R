@@ -5,6 +5,12 @@
 #' @return list of crcity class
 #' @export
 load_experiment <- function(folder){
+  experiment <- list()
+  schedule <- load_schedule_log(folder)
+  experiment$schedule <- schedule
+
+  ## This needs to be according to the shcedule
+  get_started_quests(schedule)
 
 }
 
@@ -40,11 +46,11 @@ load_task <- function(folder){
 load_schedule_log <- function(folder){
   pth <- find_log_path(folder, "schedulelog")
   log <- load_log(pth)
+  log <- process_log(log)
   return(log)
 }
 
 #' @importFrom brainvr.reader load_brainvr_log
-#'
 load_log <- function(pth){
   log <- load_brainvr_log(pth)
   return(log)

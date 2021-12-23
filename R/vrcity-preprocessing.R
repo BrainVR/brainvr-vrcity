@@ -37,6 +37,3 @@ convert_vector3 <- function(df){
   }
   return(df)
 }
-
-
-
