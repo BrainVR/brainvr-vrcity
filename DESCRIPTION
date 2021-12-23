@@ -12,6 +12,10 @@ LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
 Imports:
-  brainvr.reader
+  brainvr.reader,
+  tidyverse,
+  stringr,
+  dplyr,
+  ggplot2
 Config/testthat/edition: 3
 RoxygenNote: 7.1.2

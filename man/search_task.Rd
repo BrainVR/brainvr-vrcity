@@ -2,16 +2,18 @@
 % Please edit documentation in R/vrcity-file-operations.R
 \name{search_task}
 \alias{search_task}
-\title{Title}
+\title{Returns paths to tasks of given name in given session folder}
 \usage{
 search_task(folder, taskname)
 }
 \arguments{
-\item{taskname}{}
+\item{folder}{session forlder in which to search}
+
+\item{taskname}{name of the task to search for}
 }
 \value{
 paths to folders with a given task
 }
 \description{
-Title
+Returns paths to tasks of given name in given session folder
 }
