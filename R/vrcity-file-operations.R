@@ -7,8 +7,11 @@
 #' @export
 #'
 #' @examples
-search_task <- function(folder, taskname){
+search_task_folder <- function(folder, taskname, id=NULL){
   ptr <- paste0(".*-", taskname, collapse = "")
+  if(!is.null(id)){
+    ptr <- paste0(id, "-", taskname, collapse = "")
+  }
   dirs <- list.dirs(folder, recursive = FALSE)
   dirs <- dirs[grepl(ptr, dirs)]
   return(dirs)

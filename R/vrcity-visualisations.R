@@ -27,4 +27,3 @@ plot_city_path <- function(task, background = FALSE, custom_background = NULL,
   #g <- g + geom_navr_path(obj, ...) + theme_void()
   return(g)
 }
-

@@ -4,7 +4,7 @@
 \alias{load_experiment}
 \title{Laods the experiemnt data from given folder into a vrcity class}
 \usage{
-load_experiment(folder)
+load_experiment(folder, verbose = TRUE)
 }
 \arguments{
 \item{folder}{folder with all the subfolders}

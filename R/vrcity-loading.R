@@ -4,14 +4,26 @@
 #'
 #' @return list of crcity class
 #' @export
-load_experiment <- function(folder){
+load_experiment <- function(folder, verbose = TRUE){
   experiment <- list()
   schedule <- load_schedule_log(folder)
   experiment$schedule <- schedule
 
   ## This needs to be according to the shcedule
-  get_started_quests(schedule)
-
+  quests <- get_started_quests(schedule)
+  if(verbose){
+    message("Loading", nrow(quests), " tasks from the schedule")
+  }
+  experiment$tasks <- list()
+  for(i in seq_len(nrow(quests))){
+    quest <- quests[i,]
+    if(verbose) message("Loading ", quest$id, "-", quest$name)
+    task_dir <- search_task_folder(folder, quest$name, quest$id)
+    if(is.null(task_dir)) next
+    task <- load_task(task_dir)
+    experiment$tasks[[quest$id]] <- task
+  }
+  return(experiment)
 }
 
 #' Loads a single task in given folder
