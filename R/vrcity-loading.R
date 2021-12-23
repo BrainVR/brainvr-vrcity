@@ -7,6 +7,10 @@
 load_experiment <- function(folder, verbose = TRUE){
   experiment <- list()
   schedule <- load_schedule_log(folder)
+  if(is.null(schedule)){
+    warning("Schedule log has errors, cannot load")
+    return(NULL)
+  }
   experiment$schedule <- schedule
 
   ## This needs to be according to the shcedule
@@ -17,11 +21,12 @@ load_experiment <- function(folder, verbose = TRUE){
   experiment$tasks <- list()
   for(i in seq_len(nrow(quests))){
     quest <- quests[i,]
-    if(verbose) message("Loading ", quest$id, "-", quest$name)
+    quest_name <- paste0(quest$id, "-", quest$name)
+    if(verbose) message("Loading ", quest_name)
     task_dir <- search_task_folder(folder, quest$name, quest$id)
     if(is.null(task_dir)) next
     task <- load_task(task_dir)
-    experiment$tasks[[quest$id]] <- task
+    experiment$tasks[[quest_name]] <- task
   }
   return(experiment)
 }
