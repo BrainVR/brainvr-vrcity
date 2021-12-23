@@ -2,7 +2,7 @@
 % Please edit documentation in R/vrcity-preprocessing.R
 \name{trim_data_frame}
 \alias{trim_data_frame}
-\title{Title}
+\title{Trims leading space from the string values}
 \usage{
 trim_data_frame(df)
 }
@@ -13,5 +13,5 @@ trim_data_frame(df)
 
 }
 \description{
-Title
+Trims leading space from the string values
 }

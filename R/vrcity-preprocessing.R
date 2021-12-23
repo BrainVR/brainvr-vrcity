@@ -21,7 +21,6 @@ trim_data_frame <- function(df){
 }
 
 #' THIS CONVECRTS Z and Y axes
-#' @importFrom brainvr.reader
 convert_vector3 <- function(df){
   is_unity_vector <- function(text){
     if(!is.character(text)) return(FALSE)
