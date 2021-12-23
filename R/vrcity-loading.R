@@ -23,6 +23,7 @@ load_task <- function(folder){
     pth <- find_log_path(folder, logname)
     if(is.null(pth)) next
     log <- load_log(pth)
+    log <- process_log(log)
     logs[[logname]] <- log
   }
   return(logs)
