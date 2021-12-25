@@ -49,14 +49,19 @@ load_task <- function(folder){
     log <- process_log(log)
     logs[[logname]] <- log
   }
+  logs <- assign_class(logs)
+  return(logs)
+}
+
+assign_class <- function(logs){
   return(logs)
 }
 
 #' Loads the main schedule log
 #'
-#' @param folder
+#' @param folder sesion folder with the log and tasks present
 #'
-#' @return
+#' @return returns shcdule log list
 #' @export
 #'
 #' @examples
