@@ -1,8 +1,9 @@
 BACKGROUND_PATH <- system.file("extdata/img/CityPlan_10m.png",
                                package = "brainvr.vrcity")
 
-CITY_BOUNDARIES <- list(x = c(-400,300), y = c(-150,250))
+CITY_BOUNDARIES <- list(x = c(-420,280), y = c(-150,250))
 
+#' @export
 #' @examples
 #' @importFrom navr geom_navr_background
 plot_city_path <- function(task, background = FALSE, custom_background = NULL,
@@ -23,7 +24,7 @@ plot_city_path <- function(task, background = FALSE, custom_background = NULL,
                                   xlim = CITY_BOUNDARIES$x,
                                   ylim = CITY_BOUNDARIES$y)
   }
-  g <- g + geom_path(size = 2) + theme_void()
+  g <- g + geom_path(...) + theme_void()
   #g <- g + geom_navr_path(obj, ...) + theme_void()
   return(g)
 }
