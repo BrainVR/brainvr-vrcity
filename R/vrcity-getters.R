@@ -34,7 +34,7 @@ get_started_quests <- function(schedule){
 #' @examples
 get_tasks_by_name <- function(experiment, taskname){
   i <- grep(taskname, names(experiment$tasks))
-  tasks <- get_tasks(experiment, i)
+  tasks <- experiment$tasks[i]
   return(tasks)
 }
 
