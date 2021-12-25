@@ -20,3 +20,46 @@ get_started_quests <- function(schedule){
   }
   return(quests)
 }
+
+
+#' Returns tasks of given name from the expeiremnt. If you know the task id, use `get_task`
+#'
+#' @param experiment expeirment object
+#' @param taskname name of the task to extract. Task names can be accessed through
+#' the QUEST_NAMES exported list (e.g. `QUEST_NAMES$citynavigation`)
+#'
+#' @return list of tasks
+#' @export
+#'
+#' @examples
+get_tasks_by_name <- function(experiment, taskname){
+  i <- grep(taskname, names(experiment$tasks))
+  tasks <- get_tasks(experiment, i)
+  return(tasks)
+}
+
+#' Returns tasks with given ids
+#'
+#' @param experiment
+#' @param ids
+#'
+#' @return
+#' @export
+#'
+#' @examples
+get_tasks <- function(experiment, ids){
+  tasks <- list()
+  for(j in seq_len(length(ids))){
+    id <- ids[j]
+    i <- grep(id, names(experiment$tasks))
+    if(length(i) == 0){
+      warning("There are no tasks with id ", id)
+    }
+    if(length(i) > 1){
+      warning("There are more than one task with id ", id)
+      return(NULL)
+    }
+    tasks[[j]] <- experiment$tasks[[i]]
+  }
+  return(tasks)
+}
