@@ -11,6 +11,8 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     testthat (>= 3.0.0)
+Remotes:
+    BrainVR/brainvr-reader
 Imports:
   brainvr.reader,
   tidyverse,
