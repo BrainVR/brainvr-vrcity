@@ -18,7 +18,8 @@ Imports:
   tidyverse,
   stringr,
   dplyr,
-  ggplot2
+  ggplot2,
+  ggrepel
 Config/testthat/edition: 3
 RoxygenNote: 7.1.2
 StagedInstall: no
