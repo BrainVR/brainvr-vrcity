@@ -63,3 +63,51 @@ get_tasks <- function(experiment, ids){
   }
   return(tasks)
 }
+
+#' Returns task start position
+#'
+#' @param task
+#'
+#' @return numeric(2) or NULL
+#' @export
+#'
+#' @examples
+get_task_start_position <- function(task){
+  startTime <- get_task_start_time(task)
+  if(is.null(startTime)){
+    return(NULL)
+  }
+  if(is.null(task$player$data)){
+    warning("there is no player log")
+    return(NULL)
+  }
+  line <- task$player$data[task$player$data > startTime, ]
+  if(nrow(line) < 1){
+    warning("there is no startPosition with this time")
+    return(NULL)
+  }
+  line <- line[1, ]
+  return(c(line$camera.position_x, line$camera.position_y))
+}
+
+#' Returns task start time
+#'
+#' @param task
+#'
+#' @return numeric(1) with the start time or NULL if not found
+#' @export
+#'
+#' @examples
+get_task_start_time <- function(task){
+  iStarted <- (task$test$data$Event == "Started") &
+    (task$test$data$Sender == "Quest")
+  if(sum(iStarted) == 0){
+    warning("No quest has started")
+    return(NULL)
+  }
+  if(sum(iStarted) > 1){
+    warning("There are too many quest started")
+    return(NULL)
+  }
+  return(task$test$data$Time[iStarted])
+}
