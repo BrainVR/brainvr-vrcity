@@ -92,15 +92,18 @@ get_task_start_position <- function(task){
 
 #' Returns task start time
 #'
-#' @param task
+#' @param task task to find the start time for
+#' @param sender can be "Level" or "Quest. Defines which sender to consider to
+#' be the starting. By default it is  set to Level, as level is started
+#' when all is loaded.
 #'
 #' @return numeric(1) with the start time or NULL if not found
 #' @export
 #'
 #' @examples
-get_task_start_time <- function(task){
+get_task_start_time <- function(task, sender = "Level"){
   iStarted <- (task$test$data$Event == "Started") &
-    (task$test$data$Sender == "Quest")
+    (task$test$data$Sender == sender)
   if(sum(iStarted) == 0){
     warning("No quest has started")
     return(NULL)

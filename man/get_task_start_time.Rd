@@ -4,10 +4,14 @@
 \alias{get_task_start_time}
 \title{Returns task start time}
 \usage{
-get_task_start_time(task)
+get_task_start_time(task, sender = "Level")
 }
 \arguments{
-\item{task}{}
+\item{task}{task to find the start time for}
+
+\item{sender}{can be "Level" or "Quest. Defines which sender to consider to
+be the starting. By default it is  set to Level, as level is started
+when all is loaded.}
 }
 \value{
 numeric(1) with the start time or NULL if not found
