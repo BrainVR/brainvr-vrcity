@@ -1,0 +1,66 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "minSuccessRate": 1.0,
+    "maxAttemptsCount": 3,
+    "tutorial": true,
+    "levels": [
+        {
+            "levelName": "easy",
+            "itemsCount": 3,
+            "includeCourt": false,
+            "includeHall": true,
+            "includeRoyal": false,
+            "includeBalcony": false,
+            "includeCatacombs": false
+        },
+        {
+            "levelName": "medium",
+            "itemsCount": 5,
+            "includeCourt": false,
+            "includeHall": true,
+            "includeRoyal": true,
+            "includeBalcony": true,
+            "includeCatacombs": false
+        },
+        {
+            "levelName": "hard",
+            "itemsCount": 7,
+            "includeCourt": false,
+            "includeHall": true,
+            "includeRoyal": true,
+            "includeBalcony": true,
+            "includeCatacombs": true
+        }
+    ]
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+732.449742; Quest; 4; Started; 
+737.542812; Tutorial; 0; Started; [{"id":"EMT2019/doll","position":{"x":-3.14,"y":-0.294,"z":1.787}},{"id":"EMT2019/Ketchup","position":{"x":3.937,"y":-0.294,"z":5.104}}]
+737.638556; Phase; 0; Started; 
+816.024843; Phase; 0; Finished; 
+816.051770; Phase; 1; Started; 
+904.785250; Phase; 1; Finished; 
+904.808431; Phase; 2; Started; 
+954.430971; Phase; 2; Finished; 
+954.454905; Phase; 3; Started; 
+1072.264871; Phase; 3; Finished; 
+1072.269887; Tutorial; 0; Finished; 
+1076.109035; Level; 0; Started; [{"id":"EMT2019/teapot","position":{"x":6.815,"y":-0.294,"z":-1.767}},{"id":"EMT2019/monitor","position":{"x":7.251,"y":0.134,"z":-14.823}},{"id":"EMT2019/Soda","position":{"x":-3.72,"y":-0.294,"z":-2.72}}]
+1076.133479; Phase; 0; Started; 
+1160.357714; Phase; 0; Finished; 
+1160.380652; Phase; 1; Started; 
+1222.841584; Phase; 1; Finished; 
+1222.868511; Phase; 2; Started; 
+1283.082087; Phase; 2; Finished; 
+1283.106992; Phase; 3; Started; 
+1442.674516; Phase; 3; Finished; 
+1442.678534; Level; 0; Finished; 
+1474.062634; Quest; 4; Finished; 

@@ -1,0 +1,853 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-52-42-10-21-2021"
+}
+---SESSION HEADER---
+Time; What; Event; Id; Info
+5.279326; heliport; 1; userTouch; 
+81.304759; smasher; isFiring; 1; 
+81.481078; fly; killed; 1; {"heliportId":0}
+81.483098; heliport; 0; userTouch; 
+81.484070; heliport; hit; 0; 
+81.569600; heliport; 0; userTouch; 
+81.569600; heliport; 1; userTouch; 
+82.302831; smasher; isFiring; 0; 
+87.233679; smasher; isFiring; 1; 
+87.544680; fly; killed; 4; {"heliportId":2}
+87.544680; heliport; 2; userTouch; 
+87.544680; heliport; hit; 2; 
+87.677632; heliport; 2; userTouch; 
+88.233079; smasher; isFiring; 0; 
+88.278026; smasher; isFiring; 1; 
+88.521531; fly; killed; 6; {"heliportId":4}
+88.522529; heliport; 4; userTouch; 
+88.522529; heliport; hit; 4; 
+89.277667; smasher; isFiring; 0; 
+89.299390; smasher; isFiring; 1; 
+89.344270; heliport; 5; userTouch; 
+89.344270; heliport; hit; 5; 
+89.387856; fly; killed; 7; {"heliportId":5}
+89.543857; heliport; 5; userTouch; 
+89.921656; heliport; 2; userTouch; 
+90.299590; smasher; isFiring; 0; 
+91.342981; smasher; isFiring; 1; 
+91.764338; fly; killed; 9; {"heliportId":7}
+91.764338; heliport; 7; userTouch; 
+92.364978; smasher; isFiring; 0; 
+92.386919; smasher; isFiring; 1; 
+92.853147; fly; killed; 8; {"heliportId":6}
+92.853147; heliport; 6; userTouch; 
+93.387114; smasher; isFiring; 0; 
+93.408671; smasher; isFiring; 1; 
+94.052459; fly; killed; 3; {"heliportId":1}
+94.075423; heliport; 1; userTouch; 
+94.430790; smasher; isFiring; 0; 
+94.453730; smasher; isFiring; 1; 
+94.586374; fly; killed; 2; {"heliportId":0}
+94.586374; heliport; 0; userTouch; 
+94.586374; heliport; 1; userTouch; 
+94.586374; heliport; hit; 1; 
+95.452958; smasher; isFiring; 0; 
+106.914633; smasher; isFiring; 1; 
+107.935550; smasher; isFiring; 0; 
+108.424865; smasher; isFiring; 1; 
+109.446599; smasher; isFiring; 0; 
+109.468540; smasher; isFiring; 1; 
+110.490065; smasher; isFiring; 0; 
+110.512006; smasher; isFiring; 1; 
+111.533789; smasher; isFiring; 0; 
+111.711450; smasher; isFiring; 1; 
+112.734283; smasher; isFiring; 0; 
+113.088877; smasher; isFiring; 1; 
+114.110454; smasher; isFiring; 0; 
+114.154336; heliport; 0; userTouch; 
+114.887992; smasher; isFiring; 1; 
+115.420074; heliport; 3; userTouch; 
+115.420074; fly; killed; 5; {"heliportId":3}
+115.464937; heliport; 3; userTouch; 
+115.910366; smasher; isFiring; 0; 
+115.932280; smasher; isFiring; 1; 
+116.953792; smasher; isFiring; 0; 
+121.085609; settings; HeliportHintsOn; 0; 
+140.146031; fly; enter; 10; 
+140.146031; fly; enter; 11; 
+140.167972; smasher; isFiring; 1; 
+140.897998; fly; sit; 10; {"heliportId":4}
+140.964837; fly; sit; 11; {"heliportId":2}
+141.188276; smasher; isFiring; 0; 
+141.875869; smasher; isFiring; 1; 
+141.964632; fly; killed; 11; {"heliportId":2}
+141.986573; heliport; 2; userTouch; 
+141.987571; heliport; hit; 2; 
+142.075025; heliport; 2; userTouch; 
+142.875691; smasher; isFiring; 0; 
+142.897631; smasher; isFiring; 1; 
+142.919573; fly; killed; 10; {"heliportId":4}
+142.919573; heliport; 4; userTouch; 
+142.920571; heliport; hit; 4; 
+143.896932; smasher; isFiring; 0; 
+145.807529; fly; enter; 12; 
+146.807406; fly; enter; 13; 
+148.073496; smasher; isFiring; 1; 
+148.206401; fly; sit; 12; {"heliportId":2}
+148.961183; fly; sit; 13; {"heliportId":3}
+149.095384; smasher; isFiring; 0; 
+149.117325; smasher; isFiring; 1; 
+149.139266; fly; killed; 12; {"heliportId":2}
+149.139266; heliport; 2; userTouch; 
+149.139266; heliport; hit; 2; 
+149.205091; heliport; 2; userTouch; 
+150.116622; smasher; isFiring; 0; 
+152.004755; smasher; isFiring; 1; 
+152.181827; fly; killed; 13; {"heliportId":3}
+152.181827; heliport; 3; userTouch; 
+152.182824; heliport; hit; 3; 
+153.004941; smasher; isFiring; 0; 
+153.226598; fly; enter; 14; 
+154.892596; fly; enter; 15; 
+156.669719; fly; sit; 14; {"heliportId":7}
+156.780806; smasher; isFiring; 1; 
+157.468700; heliport; 7; userTouch; 
+157.490642; fly; killed; 14; {"heliportId":7}
+157.801945; smasher; isFiring; 0; 
+157.823887; smasher; isFiring; 1; 
+158.090920; fly; sit; 15; {"heliportId":6}
+158.845980; smasher; isFiring; 0; 
+159.489786; fly; enter; 16; 
+159.689717; smasher; isFiring; 1; 
+160.466492; fly; killed; 15; {"heliportId":6}
+160.466492; heliport; 6; userTouch; 
+160.711853; smasher; isFiring; 0; 
+160.734792; smasher; isFiring; 1; 
+161.756566; smasher; isFiring; 0; 
+163.466147; fly; sit; 16; {"heliportId":1}
+163.555020; smasher; isFiring; 1; 
+164.042986; heliport; 3; userTouch; 
+164.198576; fly; killed; 16; {"heliportId":1}
+164.198576; heliport; 1; userTouch; 
+164.554832; fly; enter; 17; 
+164.576772; smasher; isFiring; 0; 
+164.598714; smasher; isFiring; 1; 
+165.621186; smasher; isFiring; 0; 
+167.952554; fly; sit; 17; {"heliportId":0}
+168.752650; smasher; isFiring; 1; 
+168.907748; fly; killed; 17; {"heliportId":0}
+168.907748; heliport; 0; userTouch; 
+168.907748; heliport; 1; userTouch; 
+168.908745; heliport; hit; 1; 
+168.974460; heliport; 0; userTouch; 
+168.974460; heliport; 1; userTouch; 
+169.751690; smasher; isFiring; 0; 
+170.130100; fly; enter; 18; 
+172.328638; fly; sit; 18; {"heliportId":3}
+172.550671; smasher; isFiring; 1; 
+172.950408; heliport; 3; userTouch; 
+172.950408; heliport; hit; 3; 
+172.972324; fly; killed; 18; {"heliportId":3}
+173.105992; heliport; 3; userTouch; 
+173.550605; smasher; isFiring; 0; 
+173.550605; fly; enter; 19; 
+175.882999; fly; sit; 19; {"heliportId":5}
+176.460535; smasher; isFiring; 1; 
+176.725918; heliport; 5; userTouch; 
+176.726916; heliport; hit; 5; 
+176.748857; fly; killed; 19; {"heliportId":5}
+177.325898; heliport; 2; userTouch; 
+177.460539; smasher; isFiring; 0; 
+181.968757; heliport; 2; userTouch; 
+184.989593; settings; HeliportHintsOn; 0; 
+210.312480; fly; enter; 20; 
+210.334421; smasher; isFiring; 1; 
+211.311265; fly; sit; 20; {"heliportId":7}
+211.355296; smasher; isFiring; 0; 
+212.044527; smasher; isFiring; 1; 
+212.443491; fly; killed; 20; {"heliportId":7}
+212.443491; heliport; 7; userTouch; 
+212.444489; heliport; hit; 7; 
+213.043330; smasher; isFiring; 0; 
+213.332929; smasher; isFiring; 1; 
+214.354579; smasher; isFiring; 0; 
+214.465492; fly; enter; 21; 
+216.576234; smasher; isFiring; 1; 
+216.664492; fly; sit; 21; {"heliportId":4}
+217.574113; heliport; 4; userTouch; 
+217.574113; fly; killed; 21; {"heliportId":4}
+217.597052; smasher; isFiring; 0; 
+217.619991; smasher; isFiring; 1; 
+217.640935; heliport; 4; userTouch; 
+217.641932; heliport; hit; 4; 
+218.618934; smasher; isFiring; 0; 
+219.596736; fly; enter; 22; 
+221.662499; smasher; isFiring; 1; 
+221.772912; fly; sit; 22; {"heliportId":5}
+222.683793; smasher; isFiring; 0; 
+222.705831; smasher; isFiring; 1; 
+222.749714; fly; killed; 22; {"heliportId":5}
+222.772653; fly; enter; 23; 
+222.928236; heliport; 5; userTouch; 
+222.928236; heliport; hit; 5; 
+223.705891; smasher; isFiring; 0; 
+224.815976; fly; sit; 23; {"heliportId":7}
+225.260626; smasher; isFiring; 1; 
+225.682129; fly; killed; 23; {"heliportId":7}
+225.682129; heliport; 7; userTouch; 
+226.260001; smasher; isFiring; 0; 
+226.281948; smasher; isFiring; 1; 
+227.304105; smasher; isFiring; 0; 
+229.702871; fly; enter; 24; 
+231.568846; fly; sit; 24; {"heliportId":1}
+231.969237; smasher; isFiring; 1; 
+232.279574; fly; killed; 24; {"heliportId":1}
+232.279574; heliport; 1; userTouch; 
+232.279574; heliport; hit; 1; 
+232.968086; smasher; isFiring; 0; 
+236.299942; fly; enter; 25; 
+238.210627; fly; sit; 25; {"heliportId":2}
+238.409711; smasher; isFiring; 1; 
+238.764716; fly; killed; 25; {"heliportId":2}
+238.764716; heliport; 2; userTouch; 
+238.765713; heliport; hit; 2; 
+239.409836; smasher; isFiring; 0; 
+240.786823; fly; enter; 26; 
+242.875438; fly; sit; 26; {"heliportId":6}
+245.473161; heliport; 0; userTouch; 
+246.428684; smasher; isFiring; 1; 
+247.050352; heliport; 6; userTouch; 
+247.050352; fly; killed; 26; {"heliportId":6}
+247.073291; fly; enter; 27; 
+247.451263; smasher; isFiring; 0; 
+247.473204; smasher; isFiring; 1; 
+248.494595; smasher; isFiring; 0; 
+249.205126; fly; sit; 27; {"heliportId":7}
+249.627281; smasher; isFiring; 1; 
+250.226690; fly; killed; 27; {"heliportId":7}
+250.226690; heliport; 7; userTouch; 
+250.649131; smasher; isFiring; 0; 
+250.671072; smasher; isFiring; 1; 
+251.693363; smasher; isFiring; 0; 
+252.248293; fly; enter; 28; 
+254.048032; fly; sit; 28; {"heliportId":3}
+255.380389; smasher; isFiring; 1; 
+255.757086; fly; killed; 28; {"heliportId":3}
+255.757086; heliport; 3; userTouch; 
+255.758083; heliport; hit; 3; 
+255.780025; fly; enter; 29; 
+255.823907; heliport; 3; userTouch; 
+256.379498; smasher; isFiring; 0; 
+257.757325; fly; sit; 29; {"heliportId":5}
+259.001374; smasher; isFiring; 1; 
+259.444234; heliport; 5; userTouch; 
+259.467173; fly; killed; 29; {"heliportId":5}
+259.555672; heliport; 5; userTouch; 
+260.022259; heliport; 2; userTouch; 
+260.022259; smasher; isFiring; 0; 
+260.045197; smasher; isFiring; 1; 
+260.045197; heliport; hit; 2; 
+261.044619; smasher; isFiring; 0; 
+263.487386; fly; enter; 30; 
+265.620352; fly; sit; 30; {"heliportId":4}
+265.886797; smasher; isFiring; 1; 
+266.508035; heliport; 4; userTouch; 
+266.529976; fly; killed; 30; {"heliportId":4}
+266.685767; heliport; 7; userTouch; 
+266.908813; smasher; isFiring; 0; 
+266.930906; smasher; isFiring; 1; 
+267.951941; smasher; isFiring; 0; 
+268.552157; fly; enter; 31; 
+269.996344; fly; sit; 31; {"heliportId":0}
+271.239887; smasher; isFiring; 1; 
+271.528129; fly; killed; 31; {"heliportId":0}
+271.528129; heliport; 0; userTouch; 
+271.529126; heliport; hit; 0; 
+271.573009; heliport; 0; userTouch; 
+271.573009; heliport; 1; userTouch; 
+272.239762; smasher; isFiring; 0; 
+273.549872; fly; enter; 32; 
+275.704954; fly; sit; 32; {"heliportId":2}
+276.081919; smasher; isFiring; 1; 
+276.414405; fly; killed; 32; {"heliportId":2}
+276.415402; heliport; 2; userTouch; 
+276.415402; heliport; hit; 2; 
+277.081215; smasher; isFiring; 0; 
+280.435479; fly; enter; 33; 
+282.324121; fly; sit; 33; {"heliportId":3}
+282.723138; smasher; isFiring; 1; 
+283.101180; fly; killed; 33; {"heliportId":3}
+283.101180; heliport; 3; userTouch; 
+283.101180; heliport; hit; 3; 
+283.123143; fly; enter; 34; 
+283.145221; heliport; 3; userTouch; 
+283.723076; smasher; isFiring; 0; 
+285.123081; fly; sit; 34; {"heliportId":2}
+285.233803; smasher; isFiring; 1; 
+285.611340; fly; killed; 34; {"heliportId":2}
+285.611340; heliport; 2; userTouch; 
+285.611340; heliport; hit; 2; 
+285.633282; fly; enter; 35; 
+286.232806; smasher; isFiring; 0; 
+287.166723; fly; sit; 35; {"heliportId":3}
+288.877232; smasher; isFiring; 1; 
+289.253101; fly; killed; 35; {"heliportId":3}
+289.253101; heliport; 3; userTouch; 
+289.254098; heliport; hit; 3; 
+289.297926; heliport; 3; userTouch; 
+289.875972; smasher; isFiring; 0; 
+291.276238; fly; enter; 36; 
+293.052256; fly; sit; 36; {"heliportId":1}
+293.474158; smasher; isFiring; 1; 
+293.784954; heliport; 3; userTouch; 
+293.784954; heliport; hit; 3; 
+293.829456; fly; killed; 36; {"heliportId":1}
+293.829456; heliport; 0; userTouch; 
+293.829456; heliport; 1; userTouch; 
+293.852152; fly; enter; 37; 
+293.874093; heliport; 0; userTouch; 
+293.874093; heliport; 1; userTouch; 
+294.474207; smasher; isFiring; 0; 
+295.806544; fly; sit; 37; {"heliportId":4}
+296.050477; smasher; isFiring; 1; 
+296.538421; heliport; 3; userTouch; 
+296.650134; heliport; 4; userTouch; 
+296.672076; fly; killed; 37; {"heliportId":4}
+297.072825; smasher; isFiring; 0; 
+297.094766; smasher; isFiring; 1; 
+298.116799; smasher; isFiring; 0; 
+300.693591; fly; enter; 38; 
+302.425642; fly; sit; 38; {"heliportId":6}
+302.670080; smasher; isFiring; 1; 
+303.401925; heliport; 3; userTouch; 
+303.490856; heliport; 6; userTouch; 
+303.513828; fly; killed; 38; {"heliportId":6}
+303.691738; smasher; isFiring; 0; 
+303.713679; smasher; isFiring; 1; 
+304.735369; smasher; isFiring; 0; 
+307.534834; fly; enter; 39; 
+309.156011; fly; sit; 39; {"heliportId":0}
+311.378064; smasher; isFiring; 1; 
+311.687784; fly; killed; 39; {"heliportId":0}
+311.687784; heliport; 0; userTouch; 
+311.688782; heliport; hit; 0; 
+311.754859; heliport; 0; userTouch; 
+312.377343; smasher; isFiring; 0; 
+313.709989; fly; enter; 40; 
+315.864644; fly; sit; 40; {"heliportId":6}
+316.285959; smasher; isFiring; 1; 
+317.196361; fly; killed; 40; {"heliportId":6}
+317.196361; heliport; 6; userTouch; 
+317.307957; smasher; isFiring; 0; 
+317.374537; smasher; isFiring; 1; 
+318.375264; smasher; isFiring; 0; 
+321.217617; fly; enter; 41; 
+323.127609; fly; sit; 41; {"heliportId":1}
+323.483196; smasher; isFiring; 1; 
+323.904756; heliport; 3; userTouch; 
+323.948815; fly; killed; 41; {"heliportId":1}
+323.948815; heliport; 1; userTouch; 
+324.504784; smasher; isFiring; 0; 
+324.526725; smasher; isFiring; 1; 
+325.548684; smasher; isFiring; 0; 
+325.970842; fly; enter; 42; 
+328.058813; fly; sit; 42; {"heliportId":5}
+328.614160; smasher; isFiring; 1; 
+329.457717; heliport; 5; userTouch; 
+329.524640; fly; killed; 42; {"heliportId":5}
+329.635628; smasher; isFiring; 0; 
+329.657541; heliport; 5; userTouch; 
+329.702576; smasher; isFiring; 1; 
+329.702576; heliport; hit; 5; 
+330.013214; heliport; 2; userTouch; 
+330.702335; smasher; isFiring; 0; 
+331.546292; fly; enter; 43; 
+333.211832; fly; sit; 43; {"heliportId":1}
+333.544904; smasher; isFiring; 1; 
+333.811758; heliport; 3; userTouch; 
+333.811758; heliport; hit; 3; 
+333.966344; fly; killed; 43; {"heliportId":1}
+333.966344; heliport; 1; userTouch; 
+333.990281; fly; enter; 44; 
+334.544646; smasher; isFiring; 0; 
+334.567325; smasher; isFiring; 1; 
+335.433828; fly; sit; 44; {"heliportId":0}
+335.588675; smasher; isFiring; 0; 
+335.766503; smasher; isFiring; 1; 
+336.077535; fly; killed; 44; {"heliportId":0}
+336.077535; heliport; 0; userTouch; 
+336.077535; heliport; 1; userTouch; 
+336.077535; heliport; hit; 1; 
+336.099639; fly; enter; 45; 
+336.143521; heliport; 1; userTouch; 
+336.143521; heliport; 0; userTouch; 
+336.766681; smasher; isFiring; 0; 
+338.144559; fly; sit; 45; {"heliportId":6}
+340.075396; smasher; isFiring; 1; 
+340.830736; fly; killed; 45; {"heliportId":6}
+340.830736; heliport; 6; userTouch; 
+341.097224; smasher; isFiring; 0; 
+341.119916; smasher; isFiring; 1; 
+342.141599; smasher; isFiring; 0; 
+344.851545; fly; enter; 46; 
+346.583477; fly; sit; 46; {"heliportId":3}
+346.939522; smasher; isFiring; 1; 
+347.426695; heliport; 3; userTouch; 
+347.449569; fly; killed; 46; {"heliportId":3}
+347.472508; fly; enter; 47; 
+347.961382; smasher; isFiring; 0; 
+347.983323; smasher; isFiring; 1; 
+349.005604; smasher; isFiring; 0; 
+349.116335; fly; sit; 47; {"heliportId":1}
+349.493650; smasher; isFiring; 1; 
+349.826440; heliport; 3; userTouch; 
+349.826440; heliport; hit; 3; 
+349.892970; fly; killed; 47; {"heliportId":1}
+349.892970; heliport; 0; userTouch; 
+349.892970; heliport; 1; userTouch; 
+349.915908; fly; enter; 48; 
+349.981732; heliport; 0; userTouch; 
+349.981732; heliport; 1; userTouch; 
+350.181673; heliport; 3; userTouch; 
+350.493362; smasher; isFiring; 0; 
+351.914698; fly; sit; 48; {"heliportId":5}
+352.847163; smasher; isFiring; 1; 
+353.313517; heliport; 5; userTouch; 
+353.335431; fly; killed; 48; {"heliportId":5}
+353.868538; heliport; 2; userTouch; 
+353.869536; smasher; isFiring; 0; 
+353.891478; smasher; isFiring; 1; 
+353.891478; heliport; hit; 2; 
+354.891504; smasher; isFiring; 0; 
+357.356130; fly; enter; 49; 
+358.778718; fly; sit; 49; {"heliportId":3}
+359.777345; smasher; isFiring; 1; 
+360.132569; fly; killed; 49; {"heliportId":3}
+360.132569; heliport; 3; userTouch; 
+360.133567; heliport; hit; 3; 
+360.777505; smasher; isFiring; 0; 
+362.154601; fly; enter; 50; 
+364.486458; fly; sit; 50; {"heliportId":4}
+365.153490; smasher; isFiring; 1; 
+365.619126; heliport; 4; userTouch; 
+365.641067; fly; killed; 50; {"heliportId":4}
+366.174658; smasher; isFiring; 0; 
+366.197596; smasher; isFiring; 1; 
+367.219344; smasher; isFiring; 0; 
+369.662504; fly; enter; 51; 
+371.145462; fly; sit; 51; {"heliportId":0}
+371.506163; smasher; isFiring; 1; 
+371.949660; fly; killed; 51; {"heliportId":0}
+371.949660; heliport; 0; userTouch; 
+371.949660; heliport; 1; userTouch; 
+372.527520; smasher; isFiring; 0; 
+372.549486; smasher; isFiring; 1; 
+373.564605; smasher; isFiring; 0; 
+373.961501; fly; enter; 52; 
+375.622735; fly; sit; 52; {"heliportId":7}
+376.441358; smasher; isFiring; 1; 
+376.773485; heliport; 7; userTouch; 
+376.774507; heliport; hit; 7; 
+376.796423; fly; killed; 52; {"heliportId":7}
+377.429738; smasher; isFiring; 0; 
+377.451642; smasher; isFiring; 1; 
+378.465119; smasher; isFiring; 0; 
+380.812740; fly; enter; 53; 
+383.234020; fly; sit; 53; {"heliportId":4}
+383.567169; smasher; isFiring; 1; 
+383.855274; heliport; 3; userTouch; 
+383.855274; heliport; hit; 3; 
+384.122206; fly; killed; 53; {"heliportId":4}
+384.122206; heliport; 4; userTouch; 
+384.145144; fly; enter; 54; 
+384.566280; smasher; isFiring; 0; 
+384.589247; smasher; isFiring; 1; 
+385.610425; smasher; isFiring; 0; 
+385.921490; fly; sit; 54; {"heliportId":2}
+385.943432; smasher; isFiring; 1; 
+386.521178; fly; killed; 54; {"heliportId":2}
+386.521178; heliport; 2; userTouch; 
+386.965464; smasher; isFiring; 0; 
+388.542456; fly; enter; 55; 
+390.519699; fly; sit; 55; {"heliportId":7}
+390.586689; smasher; isFiring; 1; 
+391.607431; smasher; isFiring; 0; 
+391.630397; smasher; isFiring; 1; 
+391.651817; fly; killed; 55; {"heliportId":7}
+391.651817; heliport; 7; userTouch; 
+391.652816; heliport; hit; 7; 
+391.674756; fly; enter; 56; 
+392.629935; smasher; isFiring; 0; 
+393.251660; fly; sit; 56; {"heliportId":0}
+393.696429; smasher; isFiring; 1; 
+394.006625; fly; killed; 56; {"heliportId":0}
+394.006625; heliport; 0; userTouch; 
+394.006625; heliport; 1; userTouch; 
+394.007623; heliport; hit; 1; 
+394.695911; smasher; isFiring; 0; 
+398.027758; fly; enter; 57; 
+399.870764; fly; sit; 57; {"heliportId":6}
+400.270898; smasher; isFiring; 1; 
+401.025355; heliport; 6; userTouch; 
+401.113845; fly; killed; 57; {"heliportId":6}
+401.136918; fly; enter; 58; 
+401.270635; smasher; isFiring; 0; 
+401.291803; smasher; isFiring; 1; 
+402.292509; smasher; isFiring; 0; 
+403.380754; fly; sit; 58; {"heliportId":5}
+404.757776; smasher; isFiring; 1; 
+405.067566; heliport; 5; userTouch; 
+405.068562; heliport; hit; 5; 
+405.112447; fly; killed; 58; {"heliportId":5}
+405.245681; heliport; 5; userTouch; 
+405.756983; smasher; isFiring; 0; 
+405.778953; smasher; isFiring; 1; 
+406.800643; smasher; isFiring; 0; 
+409.133696; fly; enter; 59; 
+410.910882; fly; sit; 59; {"heliportId":2}
+411.176646; smasher; isFiring; 1; 
+411.487741; fly; killed; 59; {"heliportId":2}
+411.487741; heliport; 2; userTouch; 
+411.487741; heliport; hit; 2; 
+411.531623; heliport; 2; userTouch; 
+412.176806; smasher; isFiring; 0; 
+420.528197; settings; HeliportHintsOn; 0; 
+427.947115; heliport; 2; userTouch; 
+428.856765; heliport; 2; userTouch; 
+429.478751; heliport; 2; userTouch; 
+430.056671; heliport; 2; userTouch; 
+431.589186; heliport; 2; userTouch; 
+432.655384; heliport; 2; userTouch; 
+443.275350; fly; enter; 60; 
+443.275350; fly; sit; 60; {"heliportId":2}
+443.295987; smasher; isFiring; 1; 
+444.271992; fly; killed; 60; {"heliportId":2}
+444.271992; heliport; 2; userTouch; 
+444.317896; smasher; isFiring; 0; 
+444.406588; smasher; isFiring; 1; 
+445.428648; smasher; isFiring; 0; 
+445.716650; heliport; 2; userTouch; 
+446.294813; fly; enter; 61; 
+446.294813; fly; sit; 61; {"heliportId":7}
+447.915629; smasher; isFiring; 1; 
+448.493034; fly; killed; 61; {"heliportId":7}
+448.493034; heliport; 7; userTouch; 
+448.937246; smasher; isFiring; 0; 
+448.960185; smasher; isFiring; 1; 
+449.091815; heliport; 2; userTouch; 
+449.092813; heliport; hit; 2; 
+449.959624; smasher; isFiring; 0; 
+450.514231; fly; enter; 62; 
+450.514231; fly; sit; 62; {"heliportId":4}
+451.159247; smasher; isFiring; 1; 
+451.801924; fly; killed; 62; {"heliportId":4}
+451.801924; heliport; 4; userTouch; 
+451.824982; fly; enter; 63; 
+451.824982; fly; sit; 63; {"heliportId":5}
+452.180222; smasher; isFiring; 0; 
+452.203161; smasher; isFiring; 1; 
+453.001588; heliport; 5; userTouch; 
+453.001588; fly; killed; 63; {"heliportId":5}
+453.203183; smasher; isFiring; 0; 
+453.225123; smasher; isFiring; 1; 
+453.225123; heliport; hit; 5; 
+453.489974; heliport; 2; userTouch; 
+454.223855; smasher; isFiring; 0; 
+457.023620; fly; enter; 64; 
+457.023620; fly; sit; 64; {"heliportId":7}
+457.955638; smasher; isFiring; 1; 
+458.488703; fly; killed; 64; {"heliportId":7}
+458.488703; heliport; 7; userTouch; 
+458.977383; smasher; isFiring; 0; 
+458.999324; smasher; isFiring; 1; 
+460.021974; smasher; isFiring; 0; 
+462.509667; fly; enter; 65; 
+462.509667; fly; sit; 65; {"heliportId":1}
+463.842105; smasher; isFiring; 1; 
+464.108153; heliport; 3; userTouch; 
+464.108153; heliport; hit; 3; 
+464.285571; fly; killed; 65; {"heliportId":1}
+464.285571; heliport; 1; userTouch; 
+464.841981; smasher; isFiring; 0; 
+464.863897; smasher; isFiring; 1; 
+465.885649; smasher; isFiring; 0; 
+466.307962; fly; enter; 66; 
+466.307962; fly; sit; 66; {"heliportId":2}
+467.906384; smasher; isFiring; 1; 
+468.239564; fly; killed; 66; {"heliportId":2}
+468.239564; heliport; 2; userTouch; 
+468.240561; heliport; hit; 2; 
+468.263304; fly; enter; 67; 
+468.263304; fly; sit; 67; {"heliportId":6}
+468.906681; smasher; isFiring; 0; 
+469.883726; smasher; isFiring; 1; 
+470.127694; heliport; 3; userTouch; 
+470.127694; heliport; hit; 3; 
+470.549955; heliport; 6; userTouch; 
+470.571896; fly; killed; 67; {"heliportId":6}
+470.882994; smasher; isFiring; 0; 
+470.905755; smasher; isFiring; 1; 
+471.927442; smasher; isFiring; 0; 
+472.593111; fly; enter; 68; 
+472.593111; fly; sit; 68; {"heliportId":7}
+475.548128; smasher; isFiring; 1; 
+476.057776; fly; killed; 68; {"heliportId":7}
+476.058774; heliport; 7; userTouch; 
+476.080715; fly; enter; 69; 
+476.080715; fly; sit; 69; {"heliportId":3}
+476.569199; smasher; isFiring; 0; 
+476.591140; smasher; isFiring; 1; 
+477.613561; smasher; isFiring; 0; 
+479.212293; heliport; 2; userTouch; 
+483.055870; smasher; isFiring; 1; 
+483.211033; heliport; 2; userTouch; 
+483.211033; heliport; hit; 2; 
+483.433214; heliport; 1; userTouch; 
+484.055722; smasher; isFiring; 0; 
+484.166470; heliport; 0; userTouch; 
+486.476360; smasher; isFiring; 1; 
+486.808897; fly; killed; 69; {"heliportId":3}
+486.808897; heliport; 3; userTouch; 
+486.809867; heliport; hit; 3; 
+487.475813; smasher; isFiring; 0; 
+490.829711; fly; enter; 70; 
+490.829711; fly; sit; 70; {"heliportId":5}
+491.229525; smasher; isFiring; 1; 
+491.629114; heliport; 5; userTouch; 
+491.629114; fly; killed; 70; {"heliportId":5}
+492.117334; heliport; 2; userTouch; 
+492.251237; smasher; isFiring; 0; 
+493.650906; fly; enter; 71; 
+493.650906; fly; sit; 71; {"heliportId":4}
+495.493884; smasher; isFiring; 1; 
+496.137800; fly; killed; 71; {"heliportId":4}
+496.137800; heliport; 4; userTouch; 
+496.515768; smasher; isFiring; 0; 
+496.538736; smasher; isFiring; 1; 
+497.560603; smasher; isFiring; 0; 
+498.159687; fly; enter; 72; 
+498.159687; fly; sit; 72; {"heliportId":0}
+500.269714; smasher; isFiring; 1; 
+500.580652; fly; killed; 72; {"heliportId":0}
+500.580652; heliport; 0; userTouch; 
+500.580652; heliport; 1; userTouch; 
+500.581649; heliport; hit; 1; 
+500.625531; heliport; 1; userTouch; 
+501.269846; smasher; isFiring; 0; 
+504.601370; fly; enter; 73; 
+504.601370; fly; sit; 73; {"heliportId":2}
+505.644929; smasher; isFiring; 1; 
+505.933077; fly; killed; 73; {"heliportId":2}
+505.933077; heliport; 2; userTouch; 
+505.934100; heliport; hit; 2; 
+505.956927; fly; enter; 74; 
+505.956927; fly; sit; 74; {"heliportId":3}
+506.644489; smasher; isFiring; 0; 
+509.110087; smasher; isFiring; 1; 
+509.421154; fly; killed; 74; {"heliportId":3}
+509.421154; heliport; 3; userTouch; 
+509.422152; heliport; hit; 3; 
+509.444093; fly; enter; 75; 
+509.444093; fly; sit; 75; {"heliportId":2}
+510.110335; smasher; isFiring; 0; 
+511.064887; smasher; isFiring; 1; 
+511.397494; fly; killed; 75; {"heliportId":2}
+511.419435; heliport; 2; userTouch; 
+511.420433; heliport; hit; 2; 
+512.064665; smasher; isFiring; 0; 
+513.419622; fly; enter; 76; 
+513.419622; fly; sit; 76; {"heliportId":3}
+514.441325; smasher; isFiring; 1; 
+514.729417; fly; killed; 76; {"heliportId":3}
+514.729417; heliport; 3; userTouch; 
+514.730415; heliport; hit; 3; 
+514.752356; fly; enter; 77; 
+514.752356; fly; sit; 77; {"heliportId":1}
+515.441414; smasher; isFiring; 0; 
+515.507210; smasher; isFiring; 1; 
+515.773489; fly; killed; 77; {"heliportId":1}
+515.773489; heliport; 1; userTouch; 
+515.774486; heliport; hit; 1; 
+516.506891; smasher; isFiring; 0; 
+519.794603; fly; enter; 78; 
+519.794603; fly; sit; 78; {"heliportId":4}
+521.926598; smasher; isFiring; 1; 
+522.459788; heliport; 4; userTouch; 
+522.459788; fly; killed; 78; {"heliportId":4}
+522.948993; smasher; isFiring; 0; 
+522.970902; smasher; isFiring; 1; 
+523.103426; heliport; 2; userTouch; 
+523.104424; heliport; hit; 2; 
+523.970871; smasher; isFiring; 0; 
+526.480684; fly; enter; 79; 
+526.480684; fly; sit; 79; {"heliportId":6}
+527.324614; smasher; isFiring; 1; 
+527.569243; heliport; 3; userTouch; 
+527.569243; heliport; hit; 3; 
+527.902238; heliport; 6; userTouch; 
+527.923181; fly; killed; 79; {"heliportId":6}
+528.324416; smasher; isFiring; 0; 
+528.346330; smasher; isFiring; 1; 
+529.368596; smasher; isFiring; 0; 
+529.945747; fly; enter; 80; 
+529.945747; fly; sit; 80; {"heliportId":0}
+532.278070; smasher; isFiring; 1; 
+532.610512; fly; killed; 80; {"heliportId":0}
+532.610512; heliport; 0; userTouch; 
+532.610512; heliport; 1; userTouch; 
+532.611509; heliport; hit; 1; 
+533.277625; smasher; isFiring; 0; 
+536.631230; fly; enter; 81; 
+536.631230; fly; sit; 81; {"heliportId":6}
+537.297177; smasher; isFiring; 1; 
+537.985971; fly; killed; 81; {"heliportId":6}
+537.985971; heliport; 6; userTouch; 
+538.319518; smasher; isFiring; 0; 
+538.341459; smasher; isFiring; 1; 
+539.363966; smasher; isFiring; 0; 
+540.008071; fly; enter; 82; 
+540.008071; fly; sit; 82; {"heliportId":1}
+541.939960; smasher; isFiring; 1; 
+542.161412; heliport; 3; userTouch; 
+542.162410; heliport; hit; 3; 
+542.316850; fly; killed; 82; {"heliportId":1}
+542.316850; heliport; 1; userTouch; 
+542.605418; heliport; 3; userTouch; 
+542.939811; smasher; isFiring; 0; 
+544.339727; fly; enter; 83; 
+544.339727; fly; sit; 83; {"heliportId":5}
+545.716509; smasher; isFiring; 1; 
+546.115161; heliport; 5; userTouch; 
+546.116159; heliport; hit; 5; 
+546.137102; fly; killed; 83; {"heliportId":5}
+546.160943; fly; enter; 84; 
+546.160943; fly; sit; 84; {"heliportId":1}
+546.670638; heliport; 2; userTouch; 
+546.715518; smasher; isFiring; 0; 
+547.160216; smasher; isFiring; 1; 
+547.825253; heliport; 1; userTouch; 
+547.848192; fly; killed; 84; {"heliportId":1}
+547.870133; heliport; 1; userTouch; 
+547.871132; fly; enter; 85; 
+547.871132; fly; sit; 85; {"heliportId":0}
+548.181488; smasher; isFiring; 0; 
+548.204426; smasher; isFiring; 1; 
+548.647592; fly; killed; 85; {"heliportId":0}
+548.647592; heliport; 0; userTouch; 
+548.647592; heliport; 1; userTouch; 
+548.714572; heliport; 0; userTouch; 
+548.714572; heliport; 1; userTouch; 
+548.869743; heliport; 3; userTouch; 
+549.226312; smasher; isFiring; 0; 
+552.668375; fly; enter; 86; 
+552.668375; fly; sit; 86; {"heliportId":6}
+553.046408; smasher; isFiring; 1; 
+554.000560; fly; killed; 86; {"heliportId":6}
+554.000560; heliport; 6; userTouch; 
+554.023498; fly; enter; 87; 
+554.023498; fly; sit; 87; {"heliportId":3}
+554.068514; smasher; isFiring; 0; 
+554.112397; smasher; isFiring; 1; 
+555.134463; smasher; isFiring; 0; 
+557.488735; smasher; isFiring; 1; 
+557.798616; heliport; 3; userTouch; 
+557.799614; heliport; hit; 3; 
+557.821511; fly; killed; 87; {"heliportId":3}
+557.844409; fly; enter; 88; 
+557.844409; fly; sit; 88; {"heliportId":1}
+558.488838; smasher; isFiring; 0; 
+558.510806; smasher; isFiring; 1; 
+558.665490; heliport; 3; userTouch; 
+558.666487; heliport; hit; 3; 
+558.754576; fly; killed; 88; {"heliportId":1}
+558.754576; heliport; 0; userTouch; 
+558.754576; heliport; 1; userTouch; 
+559.509792; smasher; isFiring; 0; 
+562.775659; fly; enter; 89; 
+562.775659; fly; sit; 89; {"heliportId":5}
+565.218319; smasher; isFiring; 1; 
+565.639660; heliport; 2; userTouch; 
+565.661601; heliport; 5; userTouch; 
+565.661601; fly; killed; 89; {"heliportId":5}
+566.217139; heliport; 2; userTouch; 
+566.241112; smasher; isFiring; 0; 
+567.684217; fly; enter; 90; 
+567.684217; fly; sit; 90; {"heliportId":3}
+570.638668; smasher; isFiring; 1; 
+570.992821; fly; killed; 90; {"heliportId":3}
+570.992821; heliport; 3; userTouch; 
+570.993819; heliport; hit; 3; 
+571.638259; smasher; isFiring; 0; 
+572.149098; smasher; isFiring; 1; 
+573.170015; smasher; isFiring; 0; 
+575.014313; fly; enter; 91; 
+575.014313; fly; sit; 91; {"heliportId":4}
+576.613474; smasher; isFiring; 1; 
+577.301663; fly; killed; 91; {"heliportId":4}
+577.301663; heliport; 4; userTouch; 
+577.635489; smasher; isFiring; 0; 
+577.657431; smasher; isFiring; 1; 
+578.678870; smasher; isFiring; 0; 
+579.323558; fly; enter; 92; 
+579.323558; fly; sit; 92; {"heliportId":0}
+581.722313; smasher; isFiring; 1; 
+582.099305; fly; killed; 92; {"heliportId":0}
+582.099305; heliport; 0; userTouch; 
+582.099305; heliport; 1; userTouch; 
+582.100303; heliport; hit; 1; 
+582.722334; smasher; isFiring; 0; 
+586.120343; fly; enter; 93; 
+586.120343; fly; sit; 93; {"heliportId":7}
+587.385574; heliport; 2; userTouch; 
+587.852438; smasher; isFiring; 1; 
+588.474378; fly; killed; 93; {"heliportId":7}
+588.474378; heliport; 7; userTouch; 
+588.497440; fly; enter; 94; 
+588.497440; fly; sit; 94; {"heliportId":4}
+588.874366; smasher; isFiring; 0; 
+588.897302; smasher; isFiring; 1; 
+589.473713; heliport; 4; userTouch; 
+589.473713; fly; killed; 94; {"heliportId":4}
+589.918326; smasher; isFiring; 0; 
+589.941234; smasher; isFiring; 1; 
+590.962418; smasher; isFiring; 0; 
+591.495852; fly; enter; 95; 
+591.495852; fly; sit; 95; {"heliportId":2}
+591.939829; smasher; isFiring; 1; 
+592.272512; fly; killed; 95; {"heliportId":2}
+592.272512; heliport; 2; userTouch; 
+592.274001; heliport; hit; 2; 
+592.295451; fly; enter; 96; 
+592.295451; fly; sit; 96; {"heliportId":7}
+592.939316; smasher; isFiring; 0; 
+593.472720; smasher; isFiring; 1; 
+594.049579; heliport; 7; userTouch; 
+594.071490; fly; killed; 96; {"heliportId":7}
+594.494403; smasher; isFiring; 0; 
+594.516495; smasher; isFiring; 1; 
+595.538445; smasher; isFiring; 0; 
+598.092667; fly; enter; 97; 
+598.092667; fly; sit; 97; {"heliportId":0}
+600.647661; smasher; isFiring; 1; 
+600.979962; fly; killed; 97; {"heliportId":0}
+600.979962; heliport; 0; userTouch; 
+600.979962; heliport; 1; userTouch; 
+600.980959; heliport; hit; 1; 
+601.002901; fly; enter; 98; 
+601.002901; fly; sit; 98; {"heliportId":6}
+601.641383; smasher; isFiring; 0; 
+601.663324; smasher; isFiring; 1; 
+601.951619; heliport; 3; userTouch; 
+601.952616; heliport; hit; 3; 
+602.332276; heliport; 6; userTouch; 
+602.354202; fly; killed; 98; {"heliportId":6}
+602.645768; smasher; isFiring; 0; 
+602.667960; smasher; isFiring; 1; 
+603.689697; smasher; isFiring; 0; 
+606.372859; fly; enter; 99; 
+606.372859; fly; sit; 99; {"heliportId":5}
+606.861701; smasher; isFiring; 1; 
+607.352804; heliport; 5; userTouch; 
+607.352804; fly; killed; 99; {"heliportId":5}
+607.820785; heliport; 2; userTouch; 
+607.865740; smasher; isFiring; 0; 
+607.888679; smasher; isFiring; 1; 
+607.888679; heliport; hit; 2; 
+608.888357; smasher; isFiring; 0; 

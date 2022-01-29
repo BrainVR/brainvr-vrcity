@@ -1,0 +1,25 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***EXPERIMENT INFO HEADER***
+{
+    "participant": {
+        "id": "EO211021"
+    },
+    "screenInfo": {
+        "width": 1920,
+        "height": 1080
+    },
+    "cameraInfo": {
+        "fieldOfView": 60.0,
+        "farClipPlane": 1000.0
+    },
+    "model": "VIVE_Pro MV",
+    "unityVersion": "2018.4.1f1",
+    "buildGUID": "c3b7e722b2ad52b4bac4730bcfbe1d7d",
+    "productName": "VRMESTO"
+}
+---EXPERIMENT INFO HEADER---

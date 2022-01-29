@@ -1,0 +1,40 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Vstupenka do divadla.",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Theatre",
+    "journalDescription": "Dojděte si do divadla a kupte si vstupenku na večerní představení. Nezapoměňte, že musíte zaplatit a prokázat nárok na slevu pro důchodce.",
+    "startDialog": {
+        "skin": 1,
+        "title": "Divadlo",
+        "body": "Dojtěte si do divadla koupit vstupenku."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Divadlo",
+        "body": "Výborně! Vstupenku na večerní představení máte."
+    },
+    "requiredItems": [
+        "BriansHouse2019/IDCard",
+        "BriansHouse2019/Wallet"
+    ],
+    "toRemoveItems": [],
+    "toReceiveItems": [
+        "BriansHouse2019/TheatreTicket"
+    ],
+    "showArrow": true,
+    "showMap": true
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+550.328531; Quest; 2; Started; 
+567.795322; Level; 0; Started; [{"x":-71.666,"y":27.328001,"z":-98.2970047},{"x":-85.76,"y":27.7270012,"z":-82.539},{"x":-88.36,"y":27.7270012,"z":-30.2390022},{"x":-88.5600052,"y":27.7270012,"z":63.6610031},{"x":-77.46001,"y":27.7270012,"z":90.4610062},{"x":-59.4,"y":26.85,"z":70.15}]
+697.827267; Level; 0; Finished; 
+697.828265; Quest; 2; Finished; 

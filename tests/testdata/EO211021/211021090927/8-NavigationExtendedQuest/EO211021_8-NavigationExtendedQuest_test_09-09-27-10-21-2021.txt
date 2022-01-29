@@ -1,0 +1,42 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Divadelní představení.",
+    "startPoint": "NONE",
+    "navigationPoint": "CITY_MAIN/Theatre",
+    "journalDescription": "Za 30 minut začíná představení, na které jste si zakoupil/a vstupenku. Nezapomeňte se podívat na předpověď počasí, ať nezmoknete.",
+    "startDialog": {
+        "skin": 0,
+        "title": "Divadlo",
+        "body": "Pokuste se vrátit k divadlu, kde jste si dopoledne zakoupili vstupenku a nepoužít navigační pomůcky."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Divadlo.",
+        "body": "Výborně, jste na místě. Tak teď rychle dovnitř, ať nepříjdete ani o představení."
+    },
+    "requiredItems": [
+        "BriansHouse2019/TheatreTicket",
+        "BriansHouse2019/Umbrella"
+    ],
+    "toRemoveItems": [
+        "BriansHouse2019/TheatreTicket"
+    ],
+    "toReceiveItems": [
+        "BriansHouse2019/Binoculairs"
+    ],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+2176.186913; Quest; 8; Started; 
+2192.984456; Level; 0; Started; [{"x":-71.0880051,"y":27.322,"z":-98.1980057},{"x":-85.76,"y":27.7270012,"z":-82.539},{"x":-88.36,"y":27.7270012,"z":-30.2390022},{"x":-88.5600052,"y":27.7270012,"z":63.6610031},{"x":-77.46001,"y":27.7270012,"z":90.4610062},{"x":-59.4,"y":26.85,"z":70.15}]
+2261.063129; Level; 0; Finished; 
+2261.063129; Quest; 8; Finished; 

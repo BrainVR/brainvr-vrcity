@@ -1,0 +1,343 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-52-42-10-21-2021"
+}
+---SESSION HEADER---
+***SCHEDULE HEADER***
+[
+  {
+    "questId": "FliesQuest",
+    "questConfig": {
+      "$type": "FliesQuestConfig, NUDZ_Base",
+      "headOffsetInCm": 8.0,
+      "successRate": 0.8,
+      "smashThreshold": 0.015,
+      "withTutorial": true,
+      "flySmashFadeOutTime": 2.0,
+      "welcomeText": "Začni hru plácnutím do kolečka",
+      "tutorialConfig": {
+        "levelName": null,
+        "maxFlyEyeDistance": 0.3,
+        "eyeFollowTime": 2.0,
+        "flySetting": {
+          "enemyModelScale": 0.07,
+          "speedMin": 1.0,
+          "speedMax": 1.0
+        },
+        "flyImmediatelyAppearOnHeliport": false,
+        "heliportIndexesInSequence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "flyingSoundsOn": false
+      },
+      "levelConfigs": [
+        {
+          "levelName": null,
+          "levelInfoText": "Cvicny level. Po tom, co moucha pristane, ji co nejrychleji placnete",
+          "durationInMinutes": 2.0,
+          "fliesToEndLevel": 10,
+          "maxFliesPresentInLevel": 2,
+          "pickTBFRandomly": true,
+          "TBFSequence": [
+            1.0,
+            3.0
+          ],
+          "timeBetweenFliesMin": 1.0,
+          "timeBetweenFliesMax": 6.0,
+          "flyImmediatelyAppearOnHeliport": false,
+          "disturbSittingFlies": false,
+          "heliportIndexesForRandomPick": [
+            0,
+            1
+          ],
+          "heliportIndexesInSequence": [
+            0,
+            4,
+            2,
+            2,
+            3,
+            7,
+            6,
+            1,
+            0,
+            3,
+            5,
+            7,
+            1,
+            5,
+            6
+          ],
+          "pickHeliportsRandomly": false,
+          "flyIsWalking": false,
+          "flyExplosionSize": 0.2,
+          "statsPannelVisible": true,
+          "flyingSoundsOn": true,
+          "flySetting": {
+            "enemyModelScale": 0.06,
+            "speedMin": 1.0,
+            "speedMax": 3.0,
+            "timeInAirMin": 1.0,
+            "timeInAirMax": 2.0,
+            "timeOnHeliportMin": 100.0,
+            "timeOnHeliportMax": 100.0
+          }
+        },
+        {
+          "levelName": null,
+          "levelInfoText": "Mouchy budou priletat na modre plochy, ktere jste videl v uvodu. Placnete je co nejrychleji po tom, co pristanou",
+          "durationInMinutes": 10.0,
+          "fliesToEndLevel": 40,
+          "maxFliesPresentInLevel": 1,
+          "pickTBFRandomly": false,
+          "TBFSequence": [
+            2.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            2.0,
+            2.0,
+            4.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            4.0,
+            0.0,
+            0.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            4.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "timeBetweenFliesMin": 0.0,
+          "timeBetweenFliesMax": 5.0,
+          "flyImmediatelyAppearOnHeliport": false,
+          "disturbSittingFlies": false,
+          "heliportIndexesForRandomPick": [
+            0,
+            1
+          ],
+          "heliportIndexesInSequence": [
+            2,
+            7,
+            4,
+            5,
+            7,
+            1,
+            2,
+            6,
+            7,
+            3,
+            5,
+            4,
+            0,
+            2,
+            3,
+            2,
+            3,
+            1,
+            4,
+            6,
+            0,
+            6,
+            1,
+            5,
+            1,
+            0,
+            6,
+            3,
+            1,
+            5,
+            3,
+            4,
+            0,
+            7,
+            4,
+            2,
+            7,
+            0,
+            6,
+            5
+          ],
+          "pickHeliportsRandomly": false,
+          "flyIsWalking": false,
+          "flyExplosionSize": 0.2,
+          "statsPannelVisible": false,
+          "flyingSoundsOn": true,
+          "flySetting": {
+            "enemyModelScale": 0.06,
+            "speedMin": 2.5,
+            "speedMax": 2.5,
+            "timeInAirMin": 1.0,
+            "timeInAirMax": 1.0,
+            "timeOnHeliportMin": 1000.0,
+            "timeOnHeliportMax": 1100.0
+          }
+        },
+        {
+          "levelName": null,
+          "levelInfoText": "Mouchy se budou rovnou objevovat (nikoli priletat!) na stejnych pozicich. Placnete je co nejrychleji po tom, co se objevi",
+          "durationInMinutes": 10.0,
+          "fliesToEndLevel": 40,
+          "maxFliesPresentInLevel": 1,
+          "pickTBFRandomly": false,
+          "TBFSequence": [
+            2.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            2.0,
+            2.0,
+            4.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            4.0,
+            0.0,
+            0.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            4.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "timeBetweenFliesMin": 0.0,
+          "timeBetweenFliesMax": 5.0,
+          "flyImmediatelyAppearOnHeliport": true,
+          "disturbSittingFlies": false,
+          "heliportIndexesForRandomPick": [
+            0,
+            1
+          ],
+          "heliportIndexesInSequence": [
+            2,
+            7,
+            4,
+            5,
+            7,
+            1,
+            2,
+            6,
+            7,
+            3,
+            5,
+            4,
+            0,
+            2,
+            3,
+            2,
+            3,
+            1,
+            4,
+            6,
+            0,
+            6,
+            1,
+            5,
+            1,
+            0,
+            6,
+            3,
+            1,
+            5,
+            3,
+            4,
+            0,
+            7,
+            4,
+            2,
+            7,
+            0,
+            6,
+            5
+          ],
+          "pickHeliportsRandomly": false,
+          "flyIsWalking": false,
+          "flyExplosionSize": 0.2,
+          "statsPannelVisible": false,
+          "flyingSoundsOn": true,
+          "flySetting": {
+            "enemyModelScale": 0.06,
+            "speedMin": 2.5,
+            "speedMax": 2.5,
+            "timeInAirMin": 1.0,
+            "timeInAirMax": 1.0,
+            "timeOnHeliportMin": 1000.0,
+            "timeOnHeliportMax": 1100.0
+          }
+        }
+      ],
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  }
+]
+---SCHEDULE HEADER---
+time; event; param
+0.104693; APP_MODE_SET; DESKTOP
+0.119678; SCENE_LOADED; BriansHouse2019/NONE
+0.237338; SCHEDULE_STARTED; 
+0.254318; SCENE_LOADING; FliesMain/Kitchen
+0.274239; QUEST_STARTED; {"name":"FliesQuest","id":0}
+3.756365; APP_MODE_SET; DESKTOP
+3.770299; SCENE_LOADED; FliesMain/Kitchen
+5.265364; APP_MODE_SET; VR
+612.618293; SCENE_LOADING; BriansHouse2019/Kitchen
+612.643228; QUEST_FINISHED; FliesQuest
+612.643228; SCHEDULE_FINISHED; 
+615.320421; APP_MODE_SET; DESKTOP
+615.339370; SCENE_LOADED; BriansHouse2019/Kitchen
+666.064357; APP_QUIT; 

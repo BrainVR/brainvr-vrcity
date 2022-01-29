@@ -1,0 +1,29 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "clothesSet": {
+        "items": [
+            "BriansHouse2019/FormalSet"
+        ]
+    },
+    "shoes": {
+        "items": [
+            "BriansHouse2019/PatentShoes"
+        ]
+    },
+    "cap": {
+        "items": []
+    }
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+1591.361149; Quest; 7; Started; 
+1594.447495; Level; 0; Started; ["BriansHouse2019/TheatreTicket","BriansHouse2019/Umbrella"]
+2176.162952; Level; 0; Finished; 
+2176.182899; Quest; 7; Finished; 

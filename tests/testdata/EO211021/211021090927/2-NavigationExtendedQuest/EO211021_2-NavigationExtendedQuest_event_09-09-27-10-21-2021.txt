@@ -1,0 +1,9 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+Time; Event; Type; Info
+550.340500; NAVIGATE_TO; NAVIGATION; CITY_MAIN/Theatre
+561.529549; NAVIGATE_TO; NAVIGATION; CITY_MAIN/Theatre

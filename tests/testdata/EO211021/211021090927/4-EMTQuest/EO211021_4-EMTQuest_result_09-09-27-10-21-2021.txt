@@ -1,0 +1,46 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "minSuccessRate": 1.0,
+    "maxAttemptsCount": 3,
+    "tutorial": true,
+    "levels": [
+        {
+            "levelName": "easy",
+            "itemsCount": 3,
+            "includeCourt": false,
+            "includeHall": true,
+            "includeRoyal": false,
+            "includeBalcony": false,
+            "includeCatacombs": false
+        },
+        {
+            "levelName": "medium",
+            "itemsCount": 5,
+            "includeCourt": false,
+            "includeHall": true,
+            "includeRoyal": true,
+            "includeBalcony": true,
+            "includeCatacombs": false
+        },
+        {
+            "levelName": "hard",
+            "itemsCount": 7,
+            "includeCourt": false,
+            "includeHall": true,
+            "includeRoyal": true,
+            "includeBalcony": true,
+            "includeCatacombs": true
+        }
+    ]
+}
+---QUESTCONFIG HEADER---
+Timestamp; Task_objects; Task_objects_list; Objects_collected; Objects_collected_list; Additional_objects; Additional_objects_list; Missing_objects; Missing_objects_list; Correct_objects; Dropped_in_collection; Placement_order_list; Object_order_errors; Object_position_errors; Object_possition_distances; Location_order_errors; Location_order_distances; Pickup_time; Pickup_objects_times; Pickup_trajectory; Pickup_objects_trajectories; Collection_time; Collection_objects_times; Collection_trajectory; Collection_objects_trajectories; Placement_time; Placement_objects_times; Placement_trajectory; Placement_objects_trajectories
+1072.269887; 2; (doll,Ketchup); 2; (doll,Ketchup); 0; (); 0; (); 0; 0; (); 0; 0; (0.65,0.81); 0; (0.65,0.81); 34.329124; (21.05,13.26); 0.000000; (0.00,0.00); 57.463760; (35.50,13.21,4.51,4.22); 0.000000; (0.00,0.00,0.00,0.00); 90.959000; (47.98,38.72,4.24); 0.000000; (0.00,0.00,0.00)
+1442.678534; 3; (teapot,monitor,Soda); 3; (teapot,monitor,Soda); 0; (); 0; (); 3; 0; (); 2; 0; (0.64,1.57,0.94); 0; (0.64,1.57,0.94); 61.193748; (15.82,18.81,26.54); 0.000000; (0.00,0.00,0.00); 40.004932; (13.26,4.40,10.66,4.00,3.60,4.06); 0.000000; (0.00,0.00,0.00,0.00,0.00,0.00); 135.204926; (66.66,32.96,29.03,6.53); 0.000000; (0.00,0.00,0.00,0.00)

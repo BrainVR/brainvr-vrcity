@@ -1,0 +1,642 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***SCHEDULE HEADER***
+[
+  {
+    "questId": "WeatherTimeEvent",
+    "questConfig": {
+      "$type": "WeatherTimeEventConfig, NUDZ_Base",
+      "weather": 0,
+      "temperature": 25,
+      "time": {
+        "hours": 11,
+        "minutes": 0
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "PlanningQuest",
+    "questConfig": {
+      "$type": "PlanningQuestConfig, NUDZ_Base",
+      "clothesSet": {
+        "items": [
+          "BriansHouse2019/CasualSet",
+          "BriansHouse2019/SportSet"
+        ]
+      },
+      "shoes": {
+        "items": [
+          "BriansHouse2019/Boots",
+          "BriansHouse2019/Flipflops",
+          "BriansHouse2019/Sneakers"
+        ]
+      },
+      "cap": {
+        "items": null
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Vstupenka do divadla.",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Theatre",
+      "journalDescription": "Dojděte si do divadla a kupte si vstupenku na večerní představení. Nezapoměňte, že musíte zaplatit a prokázat nárok na slevu pro důchodce.",
+      "startDialog": {
+        "skin": 1,
+        "title": "Divadlo",
+        "body": "Dojtěte si do divadla koupit vstupenku."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Divadlo",
+        "body": "Výborně! Vstupenku na večerní představení máte."
+      },
+      "requiredItems": [
+        "BriansHouse2019/IDCard",
+        "BriansHouse2019/Wallet"
+      ],
+      "toRemoveItems": [],
+      "toReceiveItems": [
+        "BriansHouse2019/TheatreTicket"
+      ],
+      "showArrow": true,
+      "showMap": true,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Hradní výstava",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Castle",
+      "journalDescription": "Dojděte do hradu a podívat se na novou expozici",
+      "startDialog": {
+        "skin": 0,
+        "title": "Hrad",
+        "body": "Na hradě je nová expozice, dojdi se na ní podívat."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Jsme na místě.",
+        "body": "Výborně! Pojďme se podívat na expozici uvnitř hradu."
+      },
+      "requiredItems": [
+        "BriansHouse2019/Wallet"
+      ],
+      "toRemoveItems": null,
+      "toReceiveItems": null,
+      "showArrow": true,
+      "showMap": true,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "EMTQuest",
+    "questConfig": {
+      "$type": "EMTQuestConfig, NUDZ_Base",
+      "tutorial": true,
+      "levels": [
+        {
+          "levelName": "easy",
+          "itemsCount": 3,
+          "includeCourt": false,
+          "includeHall": true,
+          "includeRoyal": false,
+          "includeBalcony": false,
+          "includeCatacombs": false
+        },
+        {
+          "levelName": "medium",
+          "itemsCount": 5,
+          "includeCourt": false,
+          "includeHall": true,
+          "includeRoyal": true,
+          "includeBalcony": true,
+          "includeCatacombs": false
+        },
+        {
+          "levelName": "hard",
+          "itemsCount": 7,
+          "includeCourt": false,
+          "includeHall": true,
+          "includeRoyal": true,
+          "includeBalcony": true,
+          "includeCatacombs": true
+        }
+      ],
+      "minSuccessRate": 1.0,
+      "maxAttemptsCount": 3,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Dojít domů na oběd",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Home",
+      "journalDescription": "Jděte domů a vejděte do kuchyně. ",
+      "startDialog": {
+        "skin": 1,
+        "title": "Připomínka ",
+        "body": "Dojděte si domů na oběd. "
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Doma",
+        "body": "Skvělé, jste doma. Podívejte se do inventáře, co máte k obědu. Dobrou chuť."
+      },
+      "requiredItems": [],
+      "toRemoveItems": [],
+      "toReceiveItems": [
+        "EMT2019/Chicken",
+        "EMT2019/Plate",
+        "EMT2019/Pan",
+        "EMT2019/Puree",
+        "EMT2019/Cafe"
+      ],
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "WeatherTimeEvent",
+    "questConfig": {
+      "$type": "WeatherTimeEventConfig, NUDZ_Base",
+      "weather": 3,
+      "temperature": 18,
+      "time": {
+        "hours": 17,
+        "minutes": 30
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "PlanningQuest",
+    "questConfig": {
+      "$type": "PlanningQuestConfig, NUDZ_Base",
+      "clothesSet": {
+        "items": [
+          "BriansHouse2019/FormalSet"
+        ]
+      },
+      "shoes": {
+        "items": [
+          "BriansHouse2019/PatentShoes"
+        ]
+      },
+      "cap": {
+        "items": null
+      },
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Divadelní představení.",
+      "startPoint": "NONE",
+      "navigationPoint": "CITY_MAIN/Theatre",
+      "journalDescription": "Za 30 minut začíná představení, na které jste si zakoupil/a vstupenku. Nezapomeňte se podívat na předpověď počasí, ať nezmoknete.",
+      "startDialog": {
+        "skin": 0,
+        "title": "Divadlo",
+        "body": "Pokuste se vrátit k divadlu, kde jste si dopoledne zakoupili vstupenku a nepoužít navigační pomůcky."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Divadlo.",
+        "body": "Výborně, jste na místě. Tak teď rychle dovnitř, ať nepříjdete ani o představení."
+      },
+      "requiredItems": [
+        "BriansHouse2019/TheatreTicket",
+        "BriansHouse2019/Umbrella"
+      ],
+      "toRemoveItems": [
+        "BriansHouse2019/TheatreTicket"
+      ],
+      "toReceiveItems": [
+        "BriansHouse2019/Binoculairs"
+      ],
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Domů.",
+      "startPoint": null,
+      "navigationPoint": null,
+      "journalDescription": "Představení skončilo. Dojděte si zpátky domů.",
+      "startDialog": {
+        "skin": 0,
+        "title": "Domů",
+        "body": "Pokuste se trefit domů bez navigačních pomůcek."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Doma.",
+        "body": "Skvělé, pod dlouhém dnu jste doma a můžete si již odpočinout. Pokud máte sílu navíc, můžete ještě pobít otravné mouchy v kuchyni."
+      },
+      "requiredItems": null,
+      "toRemoveItems": null,
+      "toReceiveItems": null,
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "FliesQuest",
+    "questConfig": {
+      "$type": "FliesQuestConfig, NUDZ_Base",
+      "headOffsetInCm": 8.0,
+      "successRate": 0.8,
+      "smashThreshold": 0.015,
+      "withTutorial": true,
+      "flySmashFadeOutTime": 2.0,
+      "welcomeText": "Začni hru plácnutím do kolečka",
+      "tutorialConfig": {
+        "levelName": null,
+        "maxFlyEyeDistance": 0.3,
+        "eyeFollowTime": 2.0,
+        "flySetting": {
+          "enemyModelScale": 0.07,
+          "speedMin": 1.0,
+          "speedMax": 1.0
+        },
+        "flyImmediatelyAppearOnHeliport": false,
+        "heliportIndexesInSequence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "flyingSoundsOn": false
+      },
+      "levelConfigs": [
+        {
+          "levelName": null,
+          "levelInfoText": "Cvicny level. Po tom, co moucha pristane, ji co nejrychleji placnete",
+          "durationInMinutes": 2.0,
+          "fliesToEndLevel": 10,
+          "maxFliesPresentInLevel": 2,
+          "pickTBFRandomly": true,
+          "TBFSequence": [
+            1.0,
+            3.0
+          ],
+          "timeBetweenFliesMin": 1.0,
+          "timeBetweenFliesMax": 6.0,
+          "flyImmediatelyAppearOnHeliport": false,
+          "disturbSittingFlies": false,
+          "heliportIndexesForRandomPick": [
+            0,
+            1
+          ],
+          "heliportIndexesInSequence": [
+            0,
+            4,
+            2,
+            2,
+            3,
+            7,
+            6,
+            1,
+            0,
+            3,
+            5,
+            7,
+            1,
+            5,
+            6
+          ],
+          "pickHeliportsRandomly": false,
+          "flyIsWalking": false,
+          "flyExplosionSize": 0.2,
+          "statsPannelVisible": true,
+          "flyingSoundsOn": true,
+          "flySetting": {
+            "enemyModelScale": 0.06,
+            "speedMin": 1.0,
+            "speedMax": 3.0,
+            "timeInAirMin": 1.0,
+            "timeInAirMax": 2.0,
+            "timeOnHeliportMin": 100.0,
+            "timeOnHeliportMax": 100.0
+          }
+        },
+        {
+          "levelName": null,
+          "levelInfoText": "Mouchy budou priletat na modre plochy, ktere jste videl v uvodu. Placnete je co nejrychleji po tom, co pristanou",
+          "durationInMinutes": 10.0,
+          "fliesToEndLevel": 40,
+          "maxFliesPresentInLevel": 1,
+          "pickTBFRandomly": false,
+          "TBFSequence": [
+            2.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            2.0,
+            2.0,
+            4.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            4.0,
+            0.0,
+            0.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            4.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "timeBetweenFliesMin": 0.0,
+          "timeBetweenFliesMax": 5.0,
+          "flyImmediatelyAppearOnHeliport": false,
+          "disturbSittingFlies": false,
+          "heliportIndexesForRandomPick": [
+            0,
+            1
+          ],
+          "heliportIndexesInSequence": [
+            2,
+            7,
+            4,
+            5,
+            7,
+            1,
+            2,
+            6,
+            7,
+            3,
+            5,
+            4,
+            0,
+            2,
+            3,
+            2,
+            3,
+            1,
+            4,
+            6,
+            0,
+            6,
+            1,
+            5,
+            1,
+            0,
+            6,
+            3,
+            1,
+            5,
+            3,
+            4,
+            0,
+            7,
+            4,
+            2,
+            7,
+            0,
+            6,
+            5
+          ],
+          "pickHeliportsRandomly": false,
+          "flyIsWalking": false,
+          "flyExplosionSize": 0.2,
+          "statsPannelVisible": false,
+          "flyingSoundsOn": true,
+          "flySetting": {
+            "enemyModelScale": 0.06,
+            "speedMin": 2.5,
+            "speedMax": 2.5,
+            "timeInAirMin": 1.0,
+            "timeInAirMax": 1.0,
+            "timeOnHeliportMin": 1000.0,
+            "timeOnHeliportMax": 1100.0
+          }
+        },
+        {
+          "levelName": null,
+          "levelInfoText": "Mouchy se budou rovnou objevovat (nikoli priletat!) na stejnych pozicich. Placnete je co nejrychleji po tom, co se objevi",
+          "durationInMinutes": 10.0,
+          "fliesToEndLevel": 40,
+          "maxFliesPresentInLevel": 1,
+          "pickTBFRandomly": false,
+          "TBFSequence": [
+            2.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            2.0,
+            2.0,
+            4.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            4.0,
+            0.0,
+            0.0,
+            4.0,
+            2.0,
+            4.0,
+            2.0,
+            4.0,
+            0.0,
+            2.0,
+            0.0,
+            4.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "timeBetweenFliesMin": 0.0,
+          "timeBetweenFliesMax": 5.0,
+          "flyImmediatelyAppearOnHeliport": true,
+          "disturbSittingFlies": false,
+          "heliportIndexesForRandomPick": [
+            0,
+            1
+          ],
+          "heliportIndexesInSequence": [
+            2,
+            7,
+            4,
+            5,
+            7,
+            1,
+            2,
+            6,
+            7,
+            3,
+            5,
+            4,
+            0,
+            2,
+            3,
+            2,
+            3,
+            1,
+            4,
+            6,
+            0,
+            6,
+            1,
+            5,
+            1,
+            0,
+            6,
+            3,
+            1,
+            5,
+            3,
+            4,
+            0,
+            7,
+            4,
+            2,
+            7,
+            0,
+            6,
+            5
+          ],
+          "pickHeliportsRandomly": false,
+          "flyIsWalking": false,
+          "flyExplosionSize": 0.2,
+          "statsPannelVisible": false,
+          "flyingSoundsOn": true,
+          "flySetting": {
+            "enemyModelScale": 0.06,
+            "speedMin": 2.5,
+            "speedMax": 2.5,
+            "timeInAirMin": 1.0,
+            "timeInAirMax": 1.0,
+            "timeOnHeliportMin": 1000.0,
+            "timeOnHeliportMax": 1100.0
+          }
+        }
+      ],
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  }
+]
+---SCHEDULE HEADER---
+time; event; param
+0.145611; APP_MODE_SET; DESKTOP
+0.161593; SCENE_LOADED; BriansHouse2019/NONE
+0.280251; SCHEDULE_STARTED; 
+0.294243; QUEST_STARTED; {"name":"PlanningQuest","id":1}
+41.361834; APP_MODE_SET; VR
+550.293625; SCENE_LOADING; CITY_MAIN/Brians
+550.322548; QUEST_FINISHED; PlanningQuest
+550.328531; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":2}
+561.530546; SCENE_LOADED; CITY_MAIN/Brians
+697.828265; QUEST_FINISHED; NavigationExtendedQuest
+704.673495; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":3}
+729.389366; QUEST_FINISHED; NavigationExtendedQuest
+732.423783; SCENE_LOADING; EMT2019/FrontYard
+732.449742; QUEST_STARTED; {"name":"EMTQuest","id":4}
+737.341351; SCENE_LOADED; EMT2019/FrontYard
+1474.061636; QUEST_FINISHED; EMTQuest
+1477.485545; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":5}
+1490.152995; SCENE_LOADING; CITY_MAIN/Castle
+1497.881187; SCENE_LOADED; CITY_MAIN/Castle
+1586.455393; QUEST_FINISHED; NavigationExtendedQuest
+1591.334789; SCENE_LOADING; BriansHouse2019/Bedroom
+1591.361149; QUEST_STARTED; {"name":"PlanningQuest","id":7}
+1594.284386; APP_MODE_SET; DESKTOP
+1594.303326; SCENE_LOADED; BriansHouse2019/Bedroom
+2176.173937; SCENE_LOADING; CITY_MAIN/Brians
+2176.182899; QUEST_FINISHED; PlanningQuest
+2176.186913; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":8}
+2184.595557; SCENE_LOADED; CITY_MAIN/Brians
+2261.063129; QUEST_FINISHED; NavigationExtendedQuest
+2268.827761; SCENE_LOADING; 
+2268.830726; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":9}
+2328.114190; SCENE_LOADING; BriansHouse2019/Hallway
+2331.002027; APP_MODE_SET; DESKTOP
+2331.022971; SCENE_LOADED; BriansHouse2019/Hallway
+2374.179479; APP_QUIT; 

@@ -1,0 +1,33 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Domů.",
+    "startPoint": "",
+    "navigationPoint": "",
+    "journalDescription": "Představení skončilo. Dojděte si zpátky domů.",
+    "startDialog": {
+        "skin": 0,
+        "title": "Domů",
+        "body": "Pokuste se trefit domů bez navigačních pomůcek."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Doma.",
+        "body": "Skvělé, pod dlouhém dnu jste doma a můžete si již odpočinout. Pokud máte sílu navíc, můžete ještě pobít otravné mouchy v kuchyni."
+    },
+    "requiredItems": [],
+    "toRemoveItems": [],
+    "toReceiveItems": [],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+2268.830726; Quest; 9; Started; 
+2279.190638; Level; 0; Started; [{"x":-60.8740044,"y":27.1850014,"z":71.8680038},{"x":-59.4,"y":26.85,"z":70.15}]

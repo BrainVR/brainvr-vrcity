@@ -1,0 +1,32 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-09-27-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "clothesSet": {
+        "items": [
+            "BriansHouse2019/CasualSet",
+            "BriansHouse2019/SportSet"
+        ]
+    },
+    "shoes": {
+        "items": [
+            "BriansHouse2019/Boots",
+            "BriansHouse2019/Flipflops",
+            "BriansHouse2019/Sneakers"
+        ]
+    },
+    "cap": {
+        "items": []
+    }
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+0.294243; Quest; 1; Started; 
+0.330118; Level; 0; Started; ["BriansHouse2019/IDCard","BriansHouse2019/Wallet"]
+550.278665; Level; 0; Finished; 
+550.322548; Quest; 1; Finished; 

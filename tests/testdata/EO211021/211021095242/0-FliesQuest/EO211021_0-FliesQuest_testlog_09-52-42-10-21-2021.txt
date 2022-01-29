@@ -1,0 +1,341 @@
+***SESSION HEADER***
+{
+    "Participant": "EO211021",
+    "Timestamp": "09-52-42-10-21-2021"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "headOffsetInCm": 8.0,
+    "successRate": 0.800000011920929,
+    "smashThreshold": 0.014999999664723874,
+    "withTutorial": true,
+    "flySmashFadeOutTime": 2.0,
+    "welcomeText": "Začni hru plácnutím do kolečka",
+    "tutorialConfig": {
+        "levelName": "",
+        "maxFlyEyeDistance": 0.30000001192092898,
+        "eyeFollowTime": 2.0,
+        "flySetting": {
+            "enemyModelScale": 0.07000000029802323,
+            "speedMin": 1.0,
+            "speedMax": 1.0
+        },
+        "flyImmediatelyAppearOnHeliport": false,
+        "heliportIndexesInSequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "flyingSoundsOn": false
+    },
+    "levelConfigs": [
+        {
+            "levelName": "",
+            "levelInfoText": "Cvicny level. Po tom, co moucha pristane, ji co nejrychleji placnete",
+            "durationInMinutes": 2.0,
+            "fliesToEndLevel": 10,
+            "maxFliesPresentInLevel": 2,
+            "pickTBFRandomly": true,
+            "TBFSequence": [
+                1.0,
+                3.0
+            ],
+            "timeBetweenFliesMin": 1.0,
+            "timeBetweenFliesMax": 6.0,
+            "flyImmediatelyAppearOnHeliport": false,
+            "disturbSittingFlies": false,
+            "heliportIndexesForRandomPick": [
+                0,
+                1
+            ],
+            "heliportIndexesInSequence": [
+                0,
+                4,
+                2,
+                2,
+                3,
+                7,
+                6,
+                1,
+                0,
+                3,
+                5,
+                7,
+                1,
+                5,
+                6
+            ],
+            "pickHeliportsRandomly": false,
+            "flyIsWalking": false,
+            "flyExplosionSize": 0.20000000298023225,
+            "statsPannelVisible": true,
+            "flyingSoundsOn": true,
+            "flySetting": {
+                "enemyModelScale": 0.05999999865889549,
+                "speedMin": 1.0,
+                "speedMax": 3.0,
+                "timeInAirMin": 1.0,
+                "timeInAirMax": 2.0,
+                "timeOnHeliportMin": 100.0,
+                "timeOnHeliportMax": 100.0
+            }
+        },
+        {
+            "levelName": "",
+            "levelInfoText": "Mouchy budou priletat na modre plochy, ktere jste videl v uvodu. Placnete je co nejrychleji po tom, co pristanou",
+            "durationInMinutes": 10.0,
+            "fliesToEndLevel": 40,
+            "maxFliesPresentInLevel": 1,
+            "pickTBFRandomly": false,
+            "TBFSequence": [
+                2.0,
+                2.0,
+                0.0,
+                4.0,
+                4.0,
+                2.0,
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                2.0,
+                2.0,
+                4.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                4.0,
+                2.0,
+                4.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                4.0,
+                2.0,
+                4.0,
+                2.0,
+                4.0,
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                0.0,
+                4.0,
+                4.0
+            ],
+            "timeBetweenFliesMin": 0.0,
+            "timeBetweenFliesMax": 5.0,
+            "flyImmediatelyAppearOnHeliport": false,
+            "disturbSittingFlies": false,
+            "heliportIndexesForRandomPick": [
+                0,
+                1
+            ],
+            "heliportIndexesInSequence": [
+                2,
+                7,
+                4,
+                5,
+                7,
+                1,
+                2,
+                6,
+                7,
+                3,
+                5,
+                4,
+                0,
+                2,
+                3,
+                2,
+                3,
+                1,
+                4,
+                6,
+                0,
+                6,
+                1,
+                5,
+                1,
+                0,
+                6,
+                3,
+                1,
+                5,
+                3,
+                4,
+                0,
+                7,
+                4,
+                2,
+                7,
+                0,
+                6,
+                5
+            ],
+            "pickHeliportsRandomly": false,
+            "flyIsWalking": false,
+            "flyExplosionSize": 0.20000000298023225,
+            "statsPannelVisible": false,
+            "flyingSoundsOn": true,
+            "flySetting": {
+                "enemyModelScale": 0.05999999865889549,
+                "speedMin": 2.5,
+                "speedMax": 2.5,
+                "timeInAirMin": 1.0,
+                "timeInAirMax": 1.0,
+                "timeOnHeliportMin": 1000.0,
+                "timeOnHeliportMax": 1100.0
+            }
+        },
+        {
+            "levelName": "",
+            "levelInfoText": "Mouchy se budou rovnou objevovat (nikoli priletat!) na stejnych pozicich. Placnete je co nejrychleji po tom, co se objevi",
+            "durationInMinutes": 10.0,
+            "fliesToEndLevel": 40,
+            "maxFliesPresentInLevel": 1,
+            "pickTBFRandomly": false,
+            "TBFSequence": [
+                2.0,
+                2.0,
+                0.0,
+                4.0,
+                4.0,
+                2.0,
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                2.0,
+                2.0,
+                4.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                4.0,
+                2.0,
+                4.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                4.0,
+                2.0,
+                4.0,
+                2.0,
+                4.0,
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                0.0,
+                4.0,
+                4.0
+            ],
+            "timeBetweenFliesMin": 0.0,
+            "timeBetweenFliesMax": 5.0,
+            "flyImmediatelyAppearOnHeliport": true,
+            "disturbSittingFlies": false,
+            "heliportIndexesForRandomPick": [
+                0,
+                1
+            ],
+            "heliportIndexesInSequence": [
+                2,
+                7,
+                4,
+                5,
+                7,
+                1,
+                2,
+                6,
+                7,
+                3,
+                5,
+                4,
+                0,
+                2,
+                3,
+                2,
+                3,
+                1,
+                4,
+                6,
+                0,
+                6,
+                1,
+                5,
+                1,
+                0,
+                6,
+                3,
+                1,
+                5,
+                3,
+                4,
+                0,
+                7,
+                4,
+                2,
+                7,
+                0,
+                6,
+                5
+            ],
+            "pickHeliportsRandomly": false,
+            "flyIsWalking": false,
+            "flyExplosionSize": 0.20000000298023225,
+            "statsPannelVisible": false,
+            "flyingSoundsOn": true,
+            "flySetting": {
+                "enemyModelScale": 0.05999999865889549,
+                "speedMin": 2.5,
+                "speedMax": 2.5,
+                "timeInAirMin": 1.0,
+                "timeInAirMax": 1.0,
+                "timeOnHeliportMin": 1000.0,
+                "timeOnHeliportMax": 1100.0
+            }
+        }
+    ]
+}
+---QUESTCONFIG HEADER---
+***LOCATIONS INFO HEADER***
+heliport_0:(1.189, 0.394, 4.867);
+heliport_1:(0.848, 0.394, 5.157);
+heliport_2:(0.068, 0.395, 4.937);
+heliport_3:(0.810, 1.132, 4.932);
+heliport_4:(-0.432, 0.814, 5.070);
+heliport_5:(-0.431, 0.589, 4.355);
+heliport_6:(0.688, 0.724, 5.535);
+heliport_7:(0.001, 0.693, 5.490);
+---LOCATIONS INFO HEADER---
+Time; Sender; Index; Event; Info
+3.786257; Quest; 0; Started; 
+4.909408; Tutorial; 0; Started; 
+117.068452; Tutorial; 0; Finished; 
+140.144036; Level; 0; Started; 
+179.971865; Level; 0; Finished; 
+210.311483; Level; 1; Started; 
+415.508797; Level; 1; Finished; 
+443.273331; Level; 2; Started; 
+611.353776; Level; 2; Finished; 
+611.360782; Quest; 0; Finished; 
