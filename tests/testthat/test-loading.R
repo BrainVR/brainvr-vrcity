@@ -3,5 +3,4 @@ test_that("Loading tasks", {
 })
 
 test_that("Loading entire experiment", {
-  exp <- load_experiment("")
 })
