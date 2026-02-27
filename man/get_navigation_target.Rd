@@ -9,9 +9,6 @@ get_navigation_target(task)
 \arguments{
 \item{task}{}
 }
-\value{
-
-}
 \description{
 Returns english code for a navigation target
 }

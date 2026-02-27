@@ -1,0 +1,30 @@
+url: https://brainvr.github.io/brainvr-vrcity/
+template:
+  bootstrap: 5
+reference:
+- title: Data Loading
+  contents:
+  - load_experiment
+  - load_task
+  - load_schedule_log
+  - search_task_folder
+  - get_started_quests
+- title: Task Access
+  contents:
+  - get_tasks
+  - get_tasks_by_name
+  - get_task_start_time
+  - get_task_start_position
+- title: Navigation
+  contents:
+  - get_navigation_target
+  - get_navigation_target_position
+- title: Visualization
+  contents: plot_city_path
+articles:
+- title: Guides
+  navbar: ~
+  contents:
+  - getting-started
+  - temp-workflow
+

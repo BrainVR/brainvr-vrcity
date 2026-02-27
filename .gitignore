@@ -40,3 +40,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# pkgdown local output (deployed by CI to gh-pages)
+docs/
+docs

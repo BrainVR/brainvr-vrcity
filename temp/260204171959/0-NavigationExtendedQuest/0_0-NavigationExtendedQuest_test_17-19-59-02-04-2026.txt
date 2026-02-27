@@ -1,0 +1,35 @@
+***SESSION HEADER***
+{
+    "Participant": "0",
+    "Timestamp": "17-19-59-02-04-2026"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Navigace",
+    "startPoint": "CITY_MAIN/Fountain",
+    "navigationPoint": "CITY_MAIN/Cafe",
+    "journalDescription": "Dojděte na místo",
+    "startDialog": {
+        "skin": 0,
+        "title": "Úkol",
+        "body": "Podívejte se na mapu kousek od Vás. Máte za úkol se dostat z tohoto parku ke kavárně a od ní potom k rodinnému domu."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Správně.",
+        "body": ""
+    },
+    "requiredItems": [],
+    "toRemoveItems": [],
+    "toReceiveItems": [],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+0.264997; Quest; 0; Started; 
+21.898186; Level; 0; Started; [{"x":22.788002,"y":26.8340015,"z":10.1410007},{"x":65.28001,"y":27.8170013,"z":18.551},{"x":130.57,"y":27.7270012,"z":27.561},{"x":156.680008,"y":26.710001,"z":17.37}]
+117.914930; Level; 0; Finished; 
+117.918964; Quest; 0; Finished; 

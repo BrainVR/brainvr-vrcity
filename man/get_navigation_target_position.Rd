@@ -9,9 +9,6 @@ get_navigation_target_position(task)
 \arguments{
 \item{task}{}
 }
-\value{
-
-}
 \description{
 Returns x, y position of a target site
 }

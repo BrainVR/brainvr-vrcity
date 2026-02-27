@@ -9,9 +9,6 @@ convert_session_to_date(string)
 \arguments{
 \item{string}{}
 }
-\value{
-
-}
 \description{
 Converts a session name to postix date
 }

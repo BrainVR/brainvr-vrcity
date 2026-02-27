@@ -10,7 +10,7 @@ CITY_BOUNDARIES <- list(x = c(-420,280), y = c(-150,250))
 plot_city_path <- function(task, background = FALSE, custom_background = NULL,
                            vr_correction = NULL, ...) {
   df <- task$player$data
-  if(!is.null(vr_correction)){
+  if (!is.null(vr_correction)){
     df$camera.position_x <- df$camera.position_x + vr_correction$x
     df$camera.position_y <- df$camera.position_y + vr_correction$y
   }

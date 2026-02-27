@@ -9,9 +9,6 @@ trim_data_frame(df)
 \arguments{
 \item{data.frame}{}
 }
-\value{
-
-}
 \description{
 Trims leading space from the string values
 }

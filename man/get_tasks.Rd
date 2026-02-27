@@ -9,9 +9,6 @@ get_tasks(experiment, ids)
 \arguments{
 \item{ids}{}
 }
-\value{
-
-}
 \description{
 Returns tasks with given ids
 }

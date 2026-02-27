@@ -1,0 +1,57 @@
+---
+title: "Temp Dataset Workflow"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Temp Dataset Workflow}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(brainvr.vrcity)
+```
+
+This vignette uses logs from the repository `temp` folder:
+
+- `temp/260204171959`
+
+## Inspect session folder
+
+```{r}
+session_dir <- file.path("temp", "260204171959")
+list.files(session_dir)
+```
+
+## Load experiment
+
+```{r eval=FALSE}
+experiment <- load_experiment(session_dir)
+names(experiment$tasks)
+```
+
+## Get navigation tasks and targets
+
+```{r eval=FALSE}
+nav_tasks <- get_tasks_by_name(experiment, QUEST_NAMES$citynavigation)
+
+first_task <- nav_tasks[[1]]
+get_navigation_target(first_task)
+get_navigation_target_position(first_task)
+```
+
+## Start information
+
+```{r eval=FALSE}
+get_task_start_time(first_task)
+get_task_start_position(first_task)
+```
+
+## Visualize path
+
+```{r eval=FALSE}
+library(ggplot2)
+
+plot_city_path(first_task, background = TRUE) +
+  geom_vrcity_locations(show_text = TRUE)
+```

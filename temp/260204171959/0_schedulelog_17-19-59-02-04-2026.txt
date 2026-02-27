@@ -1,0 +1,79 @@
+***SESSION HEADER***
+{
+    "Participant": "0",
+    "Timestamp": "17-19-59-02-04-2026"
+}
+---SESSION HEADER---
+***SCHEDULE HEADER***
+[
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Navigace",
+      "startPoint": "CITY_MAIN/Fountain",
+      "navigationPoint": "CITY_MAIN/Cafe",
+      "journalDescription": "Dojděte na místo",
+      "startDialog": {
+        "skin": 0,
+        "title": "Úkol",
+        "body": "Podívejte se na mapu kousek od Vás. Máte za úkol se dostat z tohoto parku ke kavárně a od ní potom k rodinnému domu."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Správně.",
+        "body": ""
+      },
+      "requiredItems": null,
+      "toRemoveItems": null,
+      "toReceiveItems": null,
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  },
+  {
+    "questId": "NavigationExtendedQuest",
+    "questConfig": {
+      "$type": "NavigationExtendedQuestConfig, NUDZ_Base",
+      "questName": "Navigace",
+      "startPoint": "CITY_MAIN/Cafe",
+      "navigationPoint": "CITY_MAIN/Home",
+      "journalDescription": "Dojděte na místo",
+      "startDialog": {
+        "skin": 0,
+        "title": "Úkol",
+        "body": "A nyní k rodinnému domu."
+      },
+      "endDialog": {
+        "skin": 0,
+        "title": "Sorávně.",
+        "body": ""
+      },
+      "requiredItems": null,
+      "toRemoveItems": null,
+      "toReceiveItems": null,
+      "showArrow": false,
+      "showMap": false,
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  }
+]
+---SCHEDULE HEADER---
+time; event; param
+0.100441; APP_MODE_SET; DESKTOP
+0.112968; SCENE_LOADED; BriansHouse2019/NONE
+0.211967; SCHEDULE_STARTED; 
+0.223009; SCENE_LOADING; CITY_MAIN/Fountain
+0.264997; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":0}
+6.504970; SCENE_LOADED; CITY_MAIN/Fountain
+14.569896; APP_MODE_SET; VR
+117.918964; QUEST_FINISHED; NavigationExtendedQuest
+119.761994; QUEST_STARTED; {"name":"NavigationExtendedQuest","id":1}
+195.131726; QUEST_FINISHED; NavigationExtendedQuest
+195.132727; SCHEDULE_FINISHED; 
+222.467247; APP_QUIT; 

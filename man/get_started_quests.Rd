@@ -9,9 +9,6 @@ get_started_quests(schedule)
 \arguments{
 \item{schedule}{}
 }
-\value{
-
-}
 \description{
 Returns list with quest and their ids which have been started
 }

@@ -1,0 +1,35 @@
+***SESSION HEADER***
+{
+    "Participant": "0",
+    "Timestamp": "17-19-59-02-04-2026"
+}
+---SESSION HEADER---
+***QUESTCONFIG HEADER***
+{
+    "session_questConfigId": 0,
+    "questName": "Navigace",
+    "startPoint": "CITY_MAIN/Cafe",
+    "navigationPoint": "CITY_MAIN/Home",
+    "journalDescription": "Dojděte na místo",
+    "startDialog": {
+        "skin": 0,
+        "title": "Úkol",
+        "body": "A nyní k rodinnému domu."
+    },
+    "endDialog": {
+        "skin": 0,
+        "title": "Sorávně.",
+        "body": ""
+    },
+    "requiredItems": [],
+    "toRemoveItems": [],
+    "toReceiveItems": [],
+    "showArrow": false,
+    "showMap": false
+}
+---QUESTCONFIG HEADER---
+Time; Sender; Index; Event; Info
+119.761994; Quest; 1; Started; 
+127.745149; Level; 0; Started; [{"x":156.343,"y":27.391,"z":20.054},{"x":130.57,"y":27.7270012,"z":27.561},{"x":65.28001,"y":27.8170013,"z":18.551},{"x":23.8400021,"y":27.4070015,"z":-5.839},{"x":23.4700012,"y":27.4070015,"z":-12.9690008},{"x":-8.660001,"y":27.7270012,"z":-28.839},{"x":-7.86000061,"y":27.7270012,"z":-83.13901},{"x":-70.4900055,"y":27.7270012,"z":-84.329},{"x":-70.96001,"y":27.0600014,"z":-101.990005}]
+195.131726; Level; 0; Finished; 
+195.131726; Quest; 1; Finished; 

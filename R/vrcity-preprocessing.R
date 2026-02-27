@@ -1,9 +1,9 @@
-process_log <- function(ls_log){
-  if(is.null(ls_log[["data"]])) return(ls_log)
+process_log <- function(ls_log) {
+  if (is.null(ls_log[["data"]])) return(ls_log)
   ls_log$data <- trim_data_frame(ls_log$data)
   # conversts vectors to numbers and flips Z and Y
   ls_log$data <- convert_vector3(ls_log$data)
-  return(ls_log)
+  return (ls_log)
 }
 
 #' Trims leading space from the string values

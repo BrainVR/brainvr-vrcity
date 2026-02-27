@@ -9,9 +9,6 @@ list_tasks(folder)
 \arguments{
 \item{folder}{}
 }
-\value{
-
-}
 \description{
 Title
 }

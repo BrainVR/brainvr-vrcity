@@ -1,0 +1,36 @@
+---
+title: "Getting Started"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting Started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+`brainvr.vrcity` loads and analyzes logs from the VR City paradigm.
+
+## Install
+
+```{r eval=FALSE}
+# install.packages("remotes")
+remotes::install_github("BrainVR/brainvr-vrcity")
+library(brainvr.vrcity)
+```
+
+## Quick package tour
+
+```{r eval=FALSE}
+library(brainvr.vrcity)
+
+# quest names used across helper functions
+QUEST_NAMES
+
+# main workflow
+# 1) load session
+# 2) select tasks
+# 3) extract metrics or visualize
+```
